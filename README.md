@@ -1,6 +1,6 @@
 # **Unity Training Projects**
 
-##All of these project are a challenge that i define to myself to train and improve my abilities.
+### All of these project are a challenge that i define to myself to train and improve my abilities.
 
 # **Details**
 
@@ -9,10 +9,10 @@
 
 # **Downloads**
 
-#Windows
+#### Windows
 
 
-#Android
+#### Android
 
 # **Images**
 
