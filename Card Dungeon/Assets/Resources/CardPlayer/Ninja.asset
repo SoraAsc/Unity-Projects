@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 667c46cbba1fc6949841732463cbd200, type: 3}
+  m_Name: Ninja
+  m_EditorClassIdentifier: 
+  id: 003
+  name: Ninja
+  artwork: {fileID: -4555409633379092676, guid: ad1d53c47164a894396547b8e9694391,
+    type: 3}
+  cardType: 1
+  cardClass: 5
+  attackType: 1
+  rarity: 0
+  rankOfEnemy: 0
+  position: 
+  hp: 10
+  atk: 5
+  matk: 1
+  def: 2
+  mdef: 3
+  critRate: 0.35
+  evasion: 0.1
+  spPool: 7
+  effects: 
+  amountEffect: 0
+  percentageEffect: 0
+  cost: 0

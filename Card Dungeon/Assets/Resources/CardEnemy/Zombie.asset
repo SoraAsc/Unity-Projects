@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 667c46cbba1fc6949841732463cbd200, type: 3}
+  m_Name: Zombie
+  m_EditorClassIdentifier: 
+  id: 001
+  name: Zombie
+  artwork: {fileID: 8709459593105845014, guid: ad1d53c47164a894396547b8e9694391, type: 3}
+  cardType: 2
+  cardClass: 3
+  attackType: 1
+  rarity: 1
+  rankOfEnemy: 1
+  position: 
+  hp: 3
+  atk: 3
+  matk: 0
+  def: 4
+  mdef: 1
+  critRate: 0.09
+  evasion: 0
+  spPool: 0
+  effects: 
+  amountEffect: 0
+  percentageEffect: 0
+  cost: 0

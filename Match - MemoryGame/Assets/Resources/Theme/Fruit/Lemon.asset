@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe8ceaccee415df439842d8c14af0774, type: 3}
+  m_Name: Lemon
+  m_EditorClassIdentifier: 
+  id: 006
+  name: Lemon
+  artwork: {fileID: 21300000, guid: 4cb69834b4aaaa24e9c98442c60dd15e, type: 3}
+  cardType: 1
+  credits: https://www.seekpng.com/ima/u2q8a9y3y3y3y3q8/

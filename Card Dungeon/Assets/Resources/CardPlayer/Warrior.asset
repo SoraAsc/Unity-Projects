@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 667c46cbba1fc6949841732463cbd200, type: 3}
+  m_Name: Warrior
+  m_EditorClassIdentifier: 
+  id: 001
+  name: Warrior
+  artwork: {fileID: -4325368446885048689, guid: ad1d53c47164a894396547b8e9694391,
+    type: 3}
+  cardType: 1
+  cardClass: 2
+  attackType: 1
+  rarity: 0
+  rankOfEnemy: 0
+  position: 
+  hp: 20
+  atk: 4
+  matk: 1
+  def: 4
+  mdef: 1
+  critRate: 0.1
+  evasion: 0.08
+  spPool: 6
+  effects: 
+  amountEffect: 0
+  percentageEffect: 0
+  cost: 0
