@@ -4,7 +4,7 @@
 
 # **Details**
 
-- My focus is on the implementation of the functionalities so most of the aseets will not be my own.
+- My focus will be on implementing the features, so most of the assets will not be mine.
 
 # **Downloads**
 
