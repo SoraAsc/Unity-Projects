@@ -239,10 +239,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e03e3b309c16d04da4dcf8e5d7fc10e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allPowerUps:
-  - {fileID: 551091125465912681, guid: 89431e348af261348a763da0c302435e, type: 3}
-  - {fileID: 7861111136936653044, guid: a4fa984bdfd31f840a1753db8fa121e5, type: 3}
-  - {fileID: 1056630120988157318, guid: e2fef51535171f442aa0a0fb4bca99f6, type: 3}
 --- !u!1001 &76727047
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -442,6 +438,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 130
+  canSpawnBomb: 0
   bombPrefab: {fileID: 6912059185601985691, guid: 55a6886c53ec4224ebf429f36cc15c43,
     type: 3}
   bombPower: 1
@@ -7907,6 +7904,11 @@ MonoBehaviour:
   beginYPos: 3
   blockHolder: {fileID: 742656894}
   chanceToCreateTile: 0.89
+  chanceToSpawnPowerUp: 0.1
+  allPowerUps:
+  - {fileID: 551091125465912679, guid: 89431e348af261348a763da0c302435e, type: 3}
+  - {fileID: 7861111136936653051, guid: a4fa984bdfd31f840a1753db8fa121e5, type: 3}
+  - {fileID: 1056630120988157315, guid: e2fef51535171f442aa0a0fb4bca99f6, type: 3}
 --- !u!1001 &6845714632108740431
 PrefabInstance:
   m_ObjectHideFlags: 0

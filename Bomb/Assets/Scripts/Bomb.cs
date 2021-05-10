@@ -7,33 +7,34 @@ public class Bomb : MonoBehaviour
     public GameObject flame;
     [SerializeField] float wait = 2.0f;
     int bombPowerSpread=1;
+    Player player;
 
     string bomberTag="Player";
-    GameObject[] allPowerUp;
     public void Explosion()
     {
         GameObject centerFlame = Instantiate(flame, new Vector2(transform.position.x, transform.position.y), Quaternion.identity);
-        centerFlame.GetComponent<Flame>().PopulateFlame(allPowerUp, GameConstant.GridDirection.Line, 0, 0, flame, wait);
+        centerFlame.GetComponent<Flame>().PopulateFlame(GameConstant.GridDirection.Line, 0, 0, flame, wait);
 
 
         GameObject flameLine1 = Instantiate(flame, new Vector2(transform.position.x + 1, transform.position.y), Quaternion.identity);
-        flameLine1.GetComponent<Flame>().PopulateFlame(allPowerUp,GameConstant.GridDirection.Line, 1, bombPowerSpread,flame,wait);
+        flameLine1.GetComponent<Flame>().PopulateFlame(GameConstant.GridDirection.Line, 1, bombPowerSpread,flame,wait);
         GameObject flameLine2 = Instantiate(flame, new Vector2(transform.position.x - 1, transform.position.y), Quaternion.identity);
-        flameLine2.GetComponent<Flame>().PopulateFlame(allPowerUp, GameConstant.GridDirection.Line, -1, bombPowerSpread,flame, wait);
+        flameLine2.GetComponent<Flame>().PopulateFlame(GameConstant.GridDirection.Line, -1, bombPowerSpread,flame, wait);
 
         GameObject flameCol1 = Instantiate(flame, new Vector2(transform.position.x, transform.position.y+1), Quaternion.identity);
-        flameCol1.GetComponent<Flame>().PopulateFlame(allPowerUp,GameConstant.GridDirection.Col, 1, bombPowerSpread, flame, wait);
+        flameCol1.GetComponent<Flame>().PopulateFlame(GameConstant.GridDirection.Col, 1, bombPowerSpread, flame, wait);
         GameObject flameCol2 = Instantiate(flame, new Vector2(transform.position.x, transform.position.y - 1), Quaternion.identity);
-        flameCol2.GetComponent<Flame>().PopulateFlame(allPowerUp,GameConstant.GridDirection.Col, -1, bombPowerSpread, flame, wait);
+        flameCol2.GetComponent<Flame>().PopulateFlame(GameConstant.GridDirection.Col, -1, bombPowerSpread, flame, wait);
 
+        player.CurrentBombSpawned -= 1;
         Destroy(gameObject);
     }
 
-    public void BomberManDetails(GameObject[] allNewPowerUp,string newBomberTag ="Player", int newBombPowerSpread=1)
+    public void BomberManDetails(Player pl ,string newBomberTag ="Player", int newBombPowerSpread=1)
     {
         bomberTag = newBomberTag;
         bombPowerSpread = newBombPowerSpread;
-        allPowerUp = allNewPowerUp;
+        player = pl;
     }
 
     private void OnTriggerExit2D(Collider2D other)

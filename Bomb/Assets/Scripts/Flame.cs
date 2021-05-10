@@ -5,11 +5,9 @@ using UnityEngine;
 public class Flame : MonoBehaviour
 {
     [SerializeField] float appearPowerUpRate=0.1f;
-    [SerializeField] GameObject[] allPowerUp;
     bool limit = false;
-    public void PopulateFlame(GameObject[] newAllPowerUp,GameConstant.GridDirection dire, int i, int cont,GameObject flamePrefab, float wait)
+    public void PopulateFlame(GameConstant.GridDirection dire, int i, int cont,GameObject flamePrefab, float wait)
     {
-        allPowerUp = newAllPowerUp;
         Destroy(gameObject, wait);
         if (cont > 1)
         {
@@ -33,7 +31,7 @@ public class Flame : MonoBehaviour
         if (!limit)
         {
             GameObject flame1 = Instantiate(flamePrefab, pos, Quaternion.identity);
-            flame1.GetComponent<Flame>().PopulateFlame(allPowerUp,GameConstant.GridDirection.Line, i, cont - 1, flame1, wait-0.1f);
+            flame1.GetComponent<Flame>().PopulateFlame(GameConstant.GridDirection.Line, i, cont - 1, flame1, wait-0.1f);
         }
     }
 
@@ -47,13 +45,15 @@ public class Flame : MonoBehaviour
         else if (other.CompareTag("canExplode"))
         {
             limit = true;
-            if (appearPowerUpRate >= Random.Range(0.00f, 1.00f))
-            {
-                //Debug.Log("Entrou");
-                Instantiate(allPowerUp[Random.Range(0,allPowerUp.Length)], other.transform.position, Quaternion.identity);
-            }
+            PowerUp powerUp = other.GetComponent<ExplodableBlock>().PowerUp;
+            if(powerUp)
+                Instantiate(powerUp.gameObject, other.transform.position, Quaternion.identity);
             Destroy(other.gameObject);
             Destroy(gameObject);
+        }
+        else if (other.CompareTag("Bomb"))
+        {
+            other.GetComponent<Bomb>().Explosion();
         }
     }
 

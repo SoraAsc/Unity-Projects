@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class GridManager : MonoBehaviour
 {
-    //public GameObject backgroundTile;
-    //public GameObject solidBlockTile;
+
     public GameObject explodableBlockTile;
     [SerializeField] int colSize;
     [SerializeField] int lineSize;
@@ -15,6 +14,9 @@ public class GridManager : MonoBehaviour
     public Transform blockHolder;
 
     [SerializeField] float chanceToCreateTile=0.8f;
+    [SerializeField] float chanceToSpawnPowerUp = .1f;
+
+    public PowerUp[] allPowerUps;
     private void Start()
     {
         int newBeginXPos = beginXPos;
@@ -40,6 +42,10 @@ public class GridManager : MonoBehaviour
                         GameObject newTile = Instantiate(explodableBlockTile);
                         newTile.transform.SetParent(newBlockHolderLine.transform);
                         newTile.transform.position = new Vector2(newBeginXPos, newBeginYPos);
+                        if(chanceToSpawnPowerUp>= Random.Range(0.00f, 1.00f))
+                        {
+                            newTile.GetComponent<ExplodableBlock>().PowerUp = allPowerUps[Random.Range(0, allPowerUps.Length)];
+                        }
                     }
                 }
                 newBeginXPos += 1;
@@ -49,4 +55,5 @@ public class GridManager : MonoBehaviour
         }
         Destroy(newBlockHolderBackup);
     }
+
 }
