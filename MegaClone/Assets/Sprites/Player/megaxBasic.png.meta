@@ -1,0 +1,444 @@
+fileFormatVersion: 2
+guid: 7b8af172a4af30a43a0c42b514e40eb6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4033287949936150747
+    second: megaxBasic_entrada2
+  - first:
+      213: -3717087706273912999
+    second: megaxBasic_entrada1
+  - first:
+      213: 1906940027444999907
+    second: megaxBasic_entrada0
+  - first:
+      213: 7778020517032568222
+    second: megaxBasic_entrada3
+  - first:
+      213: -7104537136085674629
+    second: megaxBasic_entrada4
+  - first:
+      213: 531467998445046409
+    second: megaxBasic_entrada5
+  - first:
+      213: 2941471535108807631
+    second: megaxBasic_entrada6
+  - first:
+      213: 7126709959257325987
+    second: megaxBasic_idle0
+  - first:
+      213: -5856467015465266158
+    second: megaxBasic_fire0
+  - first:
+      213: 3227444399349847723
+    second: megaxBasic_fire1
+  - first:
+      213: -1894113781408723132
+    second: megaxBasic_idle1
+  - first:
+      213: -9153838965745091871
+    second: megaxBasic_idle2
+  - first:
+      213: -5658965850660230355
+    second: megaxBasic_idle3
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: megaxBasic_entrada2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 306
+        width: 30
+        height: 48
+      alignment: 9
+      pivot: {x: 0.51, y: 0.23}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8cecc650e19f730800000000000000
+      internalID: 4033287949936150747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaxBasic_entrada1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 306
+        width: 22
+        height: 48
+      alignment: 9
+      pivot: {x: 0.51, y: 0.23}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9576294dc604a6cc0800000000000000
+      internalID: -3717087706273912999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaxBasic_entrada0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 306
+        width: 8
+        height: 48
+      alignment: 9
+      pivot: {x: 0.51, y: 0.23}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e635dff9dfc67a10800000000000000
+      internalID: 1906940027444999907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaxBasic_entrada3
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 306
+        width: 30
+        height: 48
+      alignment: 9
+      pivot: {x: 0.51, y: 0.23}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e952d65537411fb60800000000000000
+      internalID: 7778020517032568222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaxBasic_entrada4
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 306
+        width: 30
+        height: 48
+      alignment: 9
+      pivot: {x: 0.51, y: 0.23}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75da0ebd1d976d90800000000000000
+      internalID: -7104537136085674629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaxBasic_entrada5
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 306
+        width: 30
+        height: 48
+      alignment: 9
+      pivot: {x: 0.51, y: 0.23}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a0ec82457206700800000000000000
+      internalID: 531467998445046409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaxBasic_entrada6
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 306
+        width: 30
+        height: 48
+      alignment: 9
+      pivot: {x: 0.51, y: 0.23}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb551fc6c432d820800000000000000
+      internalID: 2941471535108807631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaxBasic_idle0
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 306
+        width: 30
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4817159, y: 0.24032338}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a185c2f2f827e260800000000000000
+      internalID: 7126709959257325987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaxBasic_fire0
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 306
+        width: 30
+        height: 48
+      alignment: 9
+      pivot: {x: 0.48291218, y: 0.23934619}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21496604746a9bea0800000000000000
+      internalID: -5856467015465266158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaxBasic_fire1
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 306
+        width: 30
+        height: 48
+      alignment: 9
+      pivot: {x: 0.48537293, y: 0.24065463}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba6529bd49f2acc20800000000000000
+      internalID: 3227444399349847723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaxBasic_idle1
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 306
+        width: 30
+        height: 48
+      alignment: 9
+      pivot: {x: 0.48368937, y: 0.23863602}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f06fe1d81c6b5e0800000000000000
+      internalID: -1894113781408723132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaxBasic_idle2
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 306
+        width: 30
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4806956, y: 0.23977534}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea72a3b5f707f080800000000000000
+      internalID: -9153838965745091871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaxBasic_idle3
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 306
+        width: 30
+        height: 48
+      alignment: 9
+      pivot: {x: 0.48484498, y: 0.24072202}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ba4539a805771b0800000000000000
+      internalID: -5658965850660230355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
