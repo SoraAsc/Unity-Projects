@@ -32,6 +32,9 @@ TextureImporter:
   - first:
       213: 1075021052225027308
     second: weapon1_createSub2
+  - first:
+      213: 1029069388341940443
+    second: weapon0_create0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -350,6 +353,27 @@ TextureImporter:
       bones: []
       spriteID: cec70f783fd3bee00800000000000000
       internalID: 1075021052225027308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weapon0_create0
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 257
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0995d082df74e00800000000000000
+      internalID: 1029069388341940443
       vertices: []
       indices: 
       edges: []
