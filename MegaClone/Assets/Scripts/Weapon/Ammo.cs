@@ -15,9 +15,13 @@ public class Ammo : MonoBehaviour
     Animator ani;
     Rigidbody2D rd2;
 
+    [SerializeField]
+    protected Sprite[] particleSprites;
+
+    public Sprite[] ParticleSprites { get => particleSprites; }
 
 
-    #pragma warning disable IDE0051 // Remover membros privados não utilizados
+#pragma warning disable IDE0051 // Remover membros privados não utilizados
     private void Awake()
     {
         canMove = false;
@@ -55,7 +59,7 @@ public class Ammo : MonoBehaviour
     IEnumerator DestroyAmmoAfter()
     {
         yield return new WaitForSeconds(waitToDestroy);
-        Destroy(gameObject);
+        Destroy(transform.parent.gameObject);
     }
 
 }

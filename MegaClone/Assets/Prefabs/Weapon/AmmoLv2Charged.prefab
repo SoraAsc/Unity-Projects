@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3388916196815900226}
   - component: {fileID: 3388916196815900227}
   m_Layer: 0
-  m_Name: AmmoLv1Charged
+  m_Name: AmmoLv2Charged
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 3388916196819582166}
   - component: {fileID: 3388916196819582165}
   m_Layer: 0
-  m_Name: lv1ChargedShot
+  m_Name: lv2ChargedShot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -153,7 +153,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: -3805790010177584857, guid: b1ea16a8509e42048b51cc5b7e1f56bd, type: 3}
+  m_Sprite: {fileID: -987280918667987240, guid: b1ea16a8509e42048b51cc5b7e1f56bd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -180,8 +180,10 @@ MonoBehaviour:
   damage: 5
   waitToDestroy: 7
   particleSprites:
-  - {fileID: -2184116205440239278, guid: b1ea16a8509e42048b51cc5b7e1f56bd, type: 3}
-  - {fileID: 1521159911348530467, guid: b1ea16a8509e42048b51cc5b7e1f56bd, type: 3}
+  - {fileID: 3776001317428981634, guid: b1ea16a8509e42048b51cc5b7e1f56bd, type: 3}
+  - {fileID: -9141664609700018446, guid: b1ea16a8509e42048b51cc5b7e1f56bd, type: 3}
+  - {fileID: 6806044723152598775, guid: b1ea16a8509e42048b51cc5b7e1f56bd, type: 3}
+  - {fileID: -942649806514906747, guid: b1ea16a8509e42048b51cc5b7e1f56bd, type: 3}
 --- !u!95 &3388916196819582165
 Animator:
   serializedVersion: 3
@@ -192,7 +194,7 @@ Animator:
   m_GameObject: {fileID: 3388916196819582169}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 670f768b2e325d549b577a3a8ffe7cb5, type: 2}
+  m_Controller: {fileID: 9100000, guid: 5ec102975d51ce4498a6c1bab2286ccf, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
