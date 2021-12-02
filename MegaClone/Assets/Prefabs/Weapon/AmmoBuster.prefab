@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 3388916196815900228}
   - component: {fileID: 3388916196815900226}
   - component: {fileID: 3388916196815900227}
+  - component: {fileID: -7279204669526781610}
   m_Layer: 0
   m_Name: AmmoBuster
-  m_TagString: Untagged
+  m_TagString: PAmmo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67,7 +68,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.03768344, y: 0.0024454724}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -78,8 +79,21 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.36, y: 0.24}
+  m_Size: {x: 0.0565198, y: 0.042584527}
   m_EdgeRadius: 0
+--- !u!114 &-7279204669526781610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3388916196815900229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c9fe353bc1725343a4b843613bc0f70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionAnimator: {fileID: 5102193557130195571, guid: 597038b9e057a3349b9cb1ff0c39af13, type: 3}
 --- !u!1 &3388916196819582169
 GameObject:
   m_ObjectHideFlags: 0
@@ -175,7 +189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b11dacc2035abb468af5e759116890b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 300
+  speed: 700
   damage: 2
   waitToDestroy: 5
   particleSprites: []

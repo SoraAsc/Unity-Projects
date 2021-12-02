@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[System.Diagnostics.CodeAnalysis.SuppressMessage("CodeQuality", "IDE0051:Remover membros privados não utilizados", Justification = "<Pendente>")]
+[System.Diagnostics.CodeAnalysis.SuppressMessage("CodeQuality", "IDE0051:Remover membros privados não utilizados", Justification = "To avoid warnings in private methods provided by Unity.")]
 [RequireComponent(typeof(Camera))]
 public class CameraFollow : MonoBehaviour
 {
@@ -14,7 +14,7 @@ public class CameraFollow : MonoBehaviour
     [SerializeField]
     Vector2[] cameraPos;
 
-    private void Awake()
+    private void Start()
     {
         z = -10;
         player = GameObject.FindGameObjectWithTag("Player").transform;

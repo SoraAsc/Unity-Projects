@@ -146,6 +146,51 @@ TextureImporter:
   - first:
       213: 6898236216121193025
     second: megaxBasic_fallRecoveryFire0
+  - first:
+      213: -5069467637729840581
+    second: megaxBasic_death0
+  - first:
+      213: 7035045680132967731
+    second: megaxBasic_death1
+  - first:
+      213: -2942659910057149648
+    second: megaxBasic_deathParticle0
+  - first:
+      213: -8982854965502603473
+    second: megaxBasic_deathParticle1
+  - first:
+      213: 6771922361069852639
+    second: megaxBasic_deathParticle2
+  - first:
+      213: -3060764857754999959
+    second: megaxBasic_deathParticle3
+  - first:
+      213: 5351434977615539027
+    second: megaxBasic_deathParticle4
+  - first:
+      213: 9184201988482041005
+    second: megaxBasic_slidebegin0
+  - first:
+      213: -4939291422096956804
+    second: megaxBasic_slidebegin1
+  - first:
+      213: 2168622199177133618
+    second: megaxBasic_slide0
+  - first:
+      213: -9010891686176097369
+    second: megaxBasic_slidefall0
+  - first:
+      213: -7547143754491185263
+    second: megaxBasic_slidefall0
+  - first:
+      213: -6490356723083518141
+    second: megaxBasic_slidejumpfire0
+  - first:
+      213: -6470061131493419991
+    second: megaxBasic_slidebeginfire1
+  - first:
+      213: -5708694506622862999
+    second: megaxBasic_slidefire0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -435,7 +480,7 @@ TextureImporter:
         width: 30
         height: 34
       alignment: 9
-      pivot: {x: 0.48291218, y: 0.3359698}
+      pivot: {x: 0.4825958, y: 0.3372219}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -456,7 +501,7 @@ TextureImporter:
         width: 29
         height: 34
       alignment: 9
-      pivot: {x: 0.46455014, y: 0.3359698}
+      pivot: {x: 0.4825958, y: 0.3372219}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -918,7 +963,7 @@ TextureImporter:
         width: 29
         height: 34
       alignment: 9
-      pivot: {x: 0.4500942, y: 0.3389462}
+      pivot: {x: 0.3436579, y: 0.3389462}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -939,7 +984,7 @@ TextureImporter:
         width: 32
         height: 35
       alignment: 9
-      pivot: {x: 0.4500942, y: 0.3389462}
+      pivot: {x: 0.3498912, y: 0.3389462}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -960,7 +1005,7 @@ TextureImporter:
         width: 35
         height: 34
       alignment: 9
-      pivot: {x: 0.4500942, y: 0.3775572}
+      pivot: {x: 0.4500942, y: 0.3389462}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -981,7 +1026,7 @@ TextureImporter:
         width: 38
         height: 33
       alignment: 9
-      pivot: {x: 0.4500942, y: 0.3389462}
+      pivot: {x: 0.45009452, y: 0.3389462}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1002,7 +1047,7 @@ TextureImporter:
         width: 34
         height: 33
       alignment: 9
-      pivot: {x: 0.4500942, y: 0.3389462}
+      pivot: {x: 0.38916957, y: 0.3389462}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1023,7 +1068,7 @@ TextureImporter:
         width: 31
         height: 34
       alignment: 9
-      pivot: {x: 0.4500942, y: 0.3389462}
+      pivot: {x: 0.35208425, y: 0.3389462}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1044,7 +1089,7 @@ TextureImporter:
         width: 33
         height: 35
       alignment: 9
-      pivot: {x: 0.4500942, y: 0.3389462}
+      pivot: {x: 0.37568897, y: 0.3389462}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1262,6 +1307,321 @@ TextureImporter:
       bones: []
       spriteID: 14273a64a457bbf50800000000000000
       internalID: 6898236216121193025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaxBasic_death0
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 3
+        width: 26
+        height: 36
+      alignment: 9
+      pivot: {x: 0.554671, y: 0.375439}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3236ccea02a5a9b0800000000000000
+      internalID: -5069467637729840581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaxBasic_death1
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 3
+        width: 26
+        height: 36
+      alignment: 9
+      pivot: {x: 0.554671, y: 0.375439}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33dc8f6d5c081a160800000000000000
+      internalID: 7035045680132967731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaxBasic_deathParticle0
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 19
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03bb24617629927d0800000000000000
+      internalID: -2942659910057149648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaxBasic_deathParticle1
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 18
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f0d58800d765380800000000000000
+      internalID: -8982854965502603473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaxBasic_deathParticle2
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 18
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7d71a1283bafd50800000000000000
+      internalID: 6771922361069852639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaxBasic_deathParticle3
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 17
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963a388149af585d0800000000000000
+      internalID: -3060764857754999959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaxBasic_deathParticle4
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 15
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bef5f42cd144a40800000000000000
+      internalID: 5351434977615539027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaxBasic_slidebegin0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 130
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da488ec6c07d47f70800000000000000
+      internalID: 9184201988482041005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaxBasic_slidebegin1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 130
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72e6cffe9c147bb0800000000000000
+      internalID: -4939291422096956804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaxBasic_slide0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 131
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ebaf9766e781e10800000000000000
+      internalID: 2168622199177133618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaxBasic_slidejump0
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 131
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7abf3ffc0c1e2f280800000000000000
+      internalID: -9010891686176097369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaxBasic_slidefall0
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 130
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197beb4edb8234790800000000000000
+      internalID: -7547143754491185263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaxBasic_slidejumpfire0
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 130
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34fd90f92fe9de5a0800000000000000
+      internalID: -6490356723083518141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaxBasic_slidebeginfire1
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 130
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924d5464ea9b536a0800000000000000
+      internalID: -6470061131493419991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaxBasic_slidefire0
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 131
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96935899794a6c0b0800000000000000
+      internalID: -5708694506622862999
       vertices: []
       indices: 
       edges: []

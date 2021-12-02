@@ -71,4 +71,25 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 0
+    functionName: ChangeParts
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: d7e597b5cfa82e4429d61e4d989329a7, type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.016666668
+    functionName: ChangeParts
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: 47541976fa614d74fbab958df231f311, type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.033333335
+    functionName: ChangeParts
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: eba295339bc93634b8fae34969c7c688, type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

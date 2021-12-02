@@ -135,17 +135,6 @@
                 },
                 {
                     "name": "",
-                    "id": "9787849a-616e-4969-afb4-8db26d6fbb82",
-                    "path": "<Mouse>/leftButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard e Mouse",
-                    "action": "Shot",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "872cd71b-accf-4a9f-9c3d-6ad8aa67ffd8",
                     "path": "<Keyboard>/space",
                     "interactions": "",

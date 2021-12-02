@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class Ammo : MonoBehaviour
 {
+    [Header("Ammo Default Attributes")]
     [SerializeField]
     protected float speed;
     [SerializeField]
-    protected float damage;
+    protected int damage;
     [SerializeField]
     protected float waitToDestroy;
 
@@ -19,22 +20,24 @@ public class Ammo : MonoBehaviour
     protected Sprite[] particleSprites;
 
     public Sprite[] ParticleSprites { get => particleSprites; }
+    public int Damage { get => damage; }
 
 
-#pragma warning disable IDE0051 // Remover membros privados não utilizados
+    #pragma warning disable IDE0051 // Remover membros privados não utilizados
     private void Awake()
     {
         canMove = false;
         ani = GetComponent<Animator>();
         rd2 = transform.parent.GetComponent<Rigidbody2D>();
-        StartCoroutine(DestroyAmmoAfter());
+        StartCoroutine(DestroyAmmoAfter());        
     }
 
-
+    
     private void Update()
     {
         Movement();
     }
+
     #pragma warning restore IDE0051 // Remover membros privados não utilizados
 
     public void Direction(int signal=1)
@@ -61,5 +64,6 @@ public class Ammo : MonoBehaviour
         yield return new WaitForSeconds(waitToDestroy);
         Destroy(transform.parent.gameObject);
     }
+
 
 }
