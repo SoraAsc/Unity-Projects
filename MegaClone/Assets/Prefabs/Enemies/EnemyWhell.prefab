@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4342158003215475933}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.59, y: -1.54, z: 0}
+  m_LocalPosition: {x: 0, y: -1.54, z: 0}
   m_LocalScale: {x: 7, y: 7, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -154,11 +154,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6212d34c88e7d7345a72d2a9f71519a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHp: 5
-  hp: 5
-  damage: 4
+  maxHp: 2
+  hp: 2
+  damage: 2
   speed: 8
   deathParticle: {fileID: 1982736680888608323, guid: 1f17bec86fb94bf42a0ffe19bd756fba, type: 3}
+  initialDi: {x: -1, y: 0}
   aniExplosionDeath: {fileID: 6360731215005981688, guid: afcbd3490643c0e44bf8831190aa93f9, type: 3}
   hurthWait: 0.08
-  initialDir: {x: -1, y: 0}

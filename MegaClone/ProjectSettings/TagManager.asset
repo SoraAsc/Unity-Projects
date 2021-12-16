@@ -6,9 +6,12 @@ TagManager:
   tags:
   - PAmmo
   - InstantDeathZone
-  - BasicEnemy
   - Enemy
   - Wall
+  - EAmmo
+  - TileCol
+  - TileMain
+  - TileDestroyed
   layers:
   - Default
   - TransparentFX

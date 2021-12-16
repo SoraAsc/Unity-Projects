@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Diagnostics.CodeAnalysis.SuppressMessage("CodeQuality", "IDE0051:Remover membros privados não utilizados", Justification = "To avoid warnings in private methods provided by Unity.")]
 public class Ammo : MonoBehaviour
 {
     [Header("Ammo Default Attributes")]
@@ -13,6 +14,8 @@ public class Ammo : MonoBehaviour
     protected float waitToDestroy;
 
     private bool canMove=false;
+    [SerializeField]
+    private bool hasOneHit=true;
     Animator ani;
     Rigidbody2D rd2;
 
@@ -21,15 +24,29 @@ public class Ammo : MonoBehaviour
 
     public Sprite[] ParticleSprites { get => particleSprites; }
     public int Damage { get => damage; }
+    public bool HasOneHit { get => hasOneHit;  }
 
 
     #pragma warning disable IDE0051 // Remover membros privados não utilizados
     private void Awake()
     {
+        InitializeComponent();
+    }
+
+    private void InitializeComponent()
+    {
         canMove = false;
         ani = GetComponent<Animator>();
         rd2 = transform.parent.GetComponent<Rigidbody2D>();
-        StartCoroutine(DestroyAmmoAfter());        
+        if (waitToDestroy > 0) { StartCoroutine(DestroyAmmoAfter()); }
+    }
+
+    protected void InitializeComponentSelf()
+    {
+        canMove = false;
+        ani = GetComponent<Animator>();
+        rd2 = GetComponent<Rigidbody2D>();
+        StartCoroutine(DestroyAmmoAfter());
     }
 
     
@@ -62,7 +79,14 @@ public class Ammo : MonoBehaviour
     IEnumerator DestroyAmmoAfter()
     {
         yield return new WaitForSeconds(waitToDestroy);
-        Destroy(transform.parent.gameObject);
+        if (transform.parent)
+        {
+            Destroy(transform.parent.gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
 

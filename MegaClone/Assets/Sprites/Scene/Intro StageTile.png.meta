@@ -133,7 +133,7 @@ TextureImporter:
     second: Tile_street4_sub5
   - first:
       213: -1150685315023503109
-    second: lampFront
+    second: Tile_brokenStreet0
   - first:
       213: -7350916220430679343
     second: lampBack
@@ -142,7 +142,7 @@ TextureImporter:
     second: lampFrontBroken
   - first:
       213: -7851481437680302679
-    second: lampFront1
+    second: Tile_brokenStreet1
   - first:
       213: -4441463270307888704
     second: IntroStageTile_PilarMeio2
@@ -197,6 +197,165 @@ TextureImporter:
   - first:
       213: 5355426536385783379
     second: lampFrontSub1
+  - first:
+      213: -8189567506192588901
+    second: Tile_brokenStreet1_sub0
+  - first:
+      213: -151674395039937966
+    second: Tile_brokenStreet0_sub1
+  - first:
+      213: 6109131673739604898
+    second: Tile_brokenStreet0_sub0
+  - first:
+      213: -1752975233373350759
+    second: Tile_brokenStreet1_sub1
+  - first:
+      213: -1207404398017235742
+    second: Tile_brokenStreet0_sub2
+  - first:
+      213: -8515097828082489030
+    second: Tile_brokenStreet1_sub2
+  - first:
+      213: -2184634746437785312
+    second: Tile_brokenStreet2
+  - first:
+      213: 3071363761065344467
+    second: Tile_brokenStreet3
+  - first:
+      213: -6677713904124708243
+    second: Tile_brokenStreet2_sub0
+  - first:
+      213: 6614270035419746411
+    second: Tile_brokenStreet3_sub0
+  - first:
+      213: 4093721924345370911
+    second: Tile_brokenStreet2_sub1
+  - first:
+      213: 7716301056633494957
+    second: Tile_brokenStreet3_sub1
+  - first:
+      213: 3365350056081450610
+    second: Tile_brokenStreet2_sub2
+  - first:
+      213: 3282270808860815417
+    second: Tile_brokenStreet3_sub2
+  - first:
+      213: -5133942818857608832
+    second: Tile_streetDestroyedLeftTopBottom
+  - first:
+      213: 2920523699858071402
+    second: Tile_streetDestroyedRightTopBottom
+  - first:
+      213: 7251821358631745056
+    second: Tile_streetDestroyedRightMiddle
+  - first:
+      213: 3989701397196146978
+    second: Tile_streetDestroyedLeftMiddle
+  - first:
+      213: 1568763713103765928
+    second: Tile_streetDestroyedMiddle
+  - first:
+      213: 7086857678928911571
+    second: Tile_streetDestroyedMiddleTop
+  - first:
+      213: -8062425608890303258
+    second: truck_0
+  - first:
+      213: 5073740681490633853
+    second: truck_1
+  - first:
+      213: 4816453054389533225
+    second: car_0
+  - first:
+      213: 9108788549024734156
+    second: car_1
+  - first:
+      213: 505143726899649803
+    second: redcar_0
+  - first:
+      213: 2104727087236539642
+    second: redcar_1
+  - first:
+      213: 4282805936194501136
+    second: redcar_2
+  - first:
+      213: -3827708686280168578
+    second: redcar_particle_0
+  - first:
+      213: 2639537449711600720
+    second: redcar_particle_4
+  - first:
+      213: 5038744920289801852
+    second: redcar_particle_3
+  - first:
+      213: -1282276275024302278
+    second: redcar_particle_2
+  - first:
+      213: -656931592303193671
+    second: redcar_particle_1
+  - first:
+      213: 323280850247469696
+    second: destroyed_redtruck0
+  - first:
+      213: -8440911091349519506
+    second: destroyed_redcar0
+  - first:
+      213: 5566198368158636204
+    second: Tile_street9_top0
+  - first:
+      213: -8262096426799605529
+    second: Tile_street10
+  - first:
+      213: 1106053879764408201
+    second: Tile_street10_top0
+  - first:
+      213: 1222207823660093005
+    second: Tile_street11
+  - first:
+      213: 342121943950040402
+    second: Tile_street8
+  - first:
+      213: -7927103150656038608
+    second: Tile_street8_top0
+  - first:
+      213: -8680668257758763700
+    second: Tile_street9
+  - first:
+      213: -7227737130416390947
+    second: Tile_street11_top0
+  - first:
+      213: -248864716580563491
+    second: Tile_street12_top0
+  - first:
+      213: -6577115744482874909
+    second: Tile_street12
+  - first:
+      213: -1525762978365738664
+    second: Tile_street13_top0
+  - first:
+      213: 3512774065121352934
+    second: Tile_street13
+  - first:
+      213: 3057136374754296898
+    second: Tile_street14_top0
+  - first:
+      213: 2861263176895424742
+    second: Tile_street14
+  - first:
+      213: 8338380503669666797
+    second: Tile_streetDestroyedMiddleTopBottom
+  - first:
+      213: 7579475653433592388
+    second: Tile_streetDestroyedMiddleBottom
+  - first:
+      213: -5838384166980458007
+    second: Tile_streetDestroyed0sub0
+  - first:
+      213: 2683729319572813644
+    second: Tile_streetDestroyedRightBottom
+  - first:
+      213: 8440998790765095217
+    second: Tile_streetDestroyedLeftBottom
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -1344,8 +1503,8 @@ TextureImporter:
         serializedVersion: 2
         x: 774
         y: 974
-        width: 88
-        height: 56
+        width: 96
+        height: 72
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1397,6 +1556,1182 @@ TextureImporter:
       bones: []
       spriteID: 356a9f18f0c425a40800000000000000
       internalID: 5355426536385783379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_brokenStreet0
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1094
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf004c57dc1f700f0800000000000000
+      internalID: -1150685315023503109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_brokenStreet1
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 1094
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a50e7a3b3fe90390800000000000000
+      internalID: -7851481437680302679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_brokenStreet1_sub0
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 1078
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f1f494ebfc85e80800000000000000
+      internalID: -8189567506192588901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_brokenStreet0_sub1
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1062
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a4f1af0f425edf0800000000000000
+      internalID: -151674395039937966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_brokenStreet0_sub0
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1078
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a33653c3eef7c450800000000000000
+      internalID: 6109131673739604898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_brokenStreet1_sub1
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 1062
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99459ba105e2ca7e0800000000000000
+      internalID: -1752975233373350759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_brokenStreet0_sub2
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1046
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e430fbd8107e3fe0800000000000000
+      internalID: -1207404398017235742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_brokenStreet1_sub2
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 1046
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a396179e3ab44d980800000000000000
+      internalID: -8515097828082489030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_brokenStreet2
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 1110
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029a996d54e9ea1e0800000000000000
+      internalID: -2184634746437785312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_brokenStreet3
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1110
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ddbe42611daf9a20800000000000000
+      internalID: 3071363761065344467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_brokenStreet2_sub0
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 1094
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ab5f0959ef353a0800000000000000
+      internalID: -6677713904124708243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_brokenStreet3_sub0
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1094
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6054b5ad8b9acb50800000000000000
+      internalID: 6614270035419746411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_brokenStreet2_sub1
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 1078
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1995d59662dfc830800000000000000
+      internalID: 4093721924345370911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_brokenStreet3_sub1
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1078
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad5c94adeec51b60800000000000000
+      internalID: 7716301056633494957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_brokenStreet2_sub2
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 1062
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276639dab0024be20800000000000000
+      internalID: 3365350056081450610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_brokenStreet3_sub2
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1062
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93078c219e7fc8d20800000000000000
+      internalID: 3282270808860815417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: truck_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1236
+        width: 101
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ecb41210a28c1090800000000000000
+      internalID: -8062425608890303258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: truck_1
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1236
+        width: 101
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7492ba944c896640800000000000000
+      internalID: 5073740681490633853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car_0
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1236
+        width: 78
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92abb38c88a77d240800000000000000
+      internalID: 4816453054389533225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car_1
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1236
+        width: 78
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccbd3c6cceae86e70800000000000000
+      internalID: 9108788549024734156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redcar_0
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1236
+        width: 80
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0dde521b81a20700800000000000000
+      internalID: 505143726899649803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redcar_1
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1236
+        width: 80
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af460ef622e753d10800000000000000
+      internalID: 2104727087236539642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redcar_2
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1236
+        width: 80
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01abec4ce459f6b30800000000000000
+      internalID: 4282805936194501136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redcar_particle_0
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1285
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7be79ada3f31eac0800000000000000
+      internalID: -3827708686280168578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redcar_particle_4
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 1285
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054866d535581a420800000000000000
+      internalID: 2639537449711600720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redcar_particle_3
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1285
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c767daffec73de540800000000000000
+      internalID: 5038744920289801852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redcar_particle_2
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1285
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fe34b8580743ee0800000000000000
+      internalID: -1282276275024302278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redcar_particle_1
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1285
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b15907823c12e6f0800000000000000
+      internalID: -656931592303193671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: destroyed_redtruck0
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1134
+        width: 96
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08acfa178368c7400800000000000000
+      internalID: 323280850247469696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: destroyed_redcar0
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1134
+        width: 80
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e630573951cdbda80800000000000000
+      internalID: -8440911091349519506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street9_top0
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1142
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca85473cceb1f3d40800000000000000
+      internalID: 5566198368158636204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street10
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 1126
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8d5940313275d80800000000000000
+      internalID: -8262096426799605529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street10_top0
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 1142
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987dccdb42e795f00800000000000000
+      internalID: 1106053879764408201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street11
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 1126
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e86f24a8726f010800000000000000
+      internalID: 1222207823660093005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street8
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 1126
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d120b68167fb400800000000000000
+      internalID: 342121943950040402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street8_top0
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 1142
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039544f1fa54df190800000000000000
+      internalID: -7927103150656038608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street9
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1126
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45a7433632188780800000000000000
+      internalID: -8680668257758763700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street11_top0
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 1142
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc31a3cf5be1bb90800000000000000
+      internalID: -7227737130416390947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street12_top0
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1142
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5561bdbdadb8cf0800000000000000
+      internalID: -248864716580563491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street12
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1126
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e92873d31469b4a0800000000000000
+      internalID: -6577115744482874909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street13_top0
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 1142
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851711fa7a663dae0800000000000000
+      internalID: -1525762978365738664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street13
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 1126
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec53c79661efb030800000000000000
+      internalID: 3512774065121352934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street14_top0
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1142
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244c72fd5512d6a20800000000000000
+      internalID: 3057136374754296898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street14
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1126
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8e1c323bf35b720800000000000000
+      internalID: 2861263176895424742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_streetDestroyedRightBottom
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 1248
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47307ed8958e3520800000000000000
+      internalID: 2683729319572813644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_streetDestroyedLeftBottom
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 1248
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1392e098da3742570800000000000000
+      internalID: 8440998790765095217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_streetDestroyedLeftTopBottom
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 1264
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08913d0053290c8b0800000000000000
+      internalID: -5133942818857608832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_streetDestroyedRightTopBottom
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 1264
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f5628d4d8c78820800000000000000
+      internalID: 2920523699858071402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_streetDestroyedRightMiddle
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1248
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026f5d79a15a3a460800000000000000
+      internalID: 7251821358631745056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_streetDestroyedLeftMiddle
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 1248
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22981cb48444e5730800000000000000
+      internalID: 3989701397196146978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_streetDestroyedMiddleTop
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 1264
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc9e4ed283995260800000000000000
+      internalID: 7086857678928911571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_streetDestroyedRightTop
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1264
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925c27a6683b87820800000000000000
+      internalID: 2916278148615292201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_streetDestroyedLeftTop
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 1264
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a808fc17c5f87dea0800000000000000
+      internalID: -5848047963908112246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_streetDestroyedMiddle
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1260
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1a210194e55c510800000000000000
+      internalID: 1568763713103765928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_streetDestroyedMiddleTopBottom
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1264
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3f543b3e0e7b370800000000000000
+      internalID: 8338380503669666797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_streetDestroyedMiddleBottom
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1248
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a81a2f2f4bf2960800000000000000
+      internalID: 7579475653433592388
       vertices: []
       indices: 
       edges: []

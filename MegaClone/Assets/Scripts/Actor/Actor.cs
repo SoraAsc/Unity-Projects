@@ -43,7 +43,7 @@ public abstract class Actor : MonoBehaviour
         if (hp <= 0)
         {
             isAlive = false;
-            ani.Play("death", 0, 0.0f);
+            ani.Play("death", 0, 0.0f);            
         }
     }
 
@@ -57,4 +57,13 @@ public abstract class Actor : MonoBehaviour
     }
 
     protected abstract void Movement(Vector2 dir);
+
+
+    protected void Limit()
+    {
+        if(transform.position.x <= -14.4f || transform.position.y<= -36.4f)
+        {
+            Destroy(gameObject);
+        }
+    }
 }

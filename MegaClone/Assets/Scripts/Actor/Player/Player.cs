@@ -61,7 +61,7 @@ public class Player : Actor
         control.Player.Shot.started += _ => { if (isAlive) isHoldShoot = true; };
         control.Player.Shot.performed += _ => { if (isAlive) { shotNow = true; } };
         control.Player.Shot.canceled += _ => { if (isAlive) { isHoldShoot = false; ani.SetBool("shot", shotNow); } };
-
+        
         LoadMaxStatus();
     }
 
@@ -266,6 +266,32 @@ public class Player : Actor
             LoseHealth(damage);
             lifeBar.RunLifeChange(damage, -1);
         }
+        if (other.CompareTag("EAmmo") && isAlive)
+        {
+            ReceiveDamage(other.gameObject.GetComponentInChildren<Ammo>());
+        }
+    }
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("EAmmo") && isAlive)
+        {
+            ReceiveDamage(other.gameObject.GetComponentInChildren<Ammo>());
+        }
+    }
+
+    private void ReceiveDamage(Ammo other)
+    {
+
+        Hurth();
+        int damage = other.Damage;
+        LoseHealth(damage);
+        lifeBar.RunLifeChange(damage, -1);
+
+        if (other.HasOneHit)
+        {
+            Destroy(other.gameObject);
+        }
+       
     }
 
     protected override void Hurth()

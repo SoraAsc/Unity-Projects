@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 3388916196815900228}
   - component: {fileID: 3388916196815900226}
   - component: {fileID: 3388916196815900227}
-  - component: {fileID: -7279204669526781610}
+  - component: {fileID: 7021422258275877510}
   m_Layer: 0
-  m_Name: AmmoBuster
+  m_Name: AmmoLv1Charged
   m_TagString: PAmmo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -68,7 +68,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.03768344, y: 0.0024454724}
+  m_Offset: {x: 0.04442084, y: 0.0026841294}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -79,9 +79,9 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.0565198, y: 0.042584527}
+  m_Size: {x: 0.112081096, y: 0.09808791}
   m_EdgeRadius: 0
---- !u!114 &-7279204669526781610
+--- !u!114 &7021422258275877510
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -104,9 +104,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3388916196819582168}
   - component: {fileID: 3388916196819582167}
-  - component: {fileID: 5885864973487918587}
+  - component: {fileID: 3388916196819582166}
+  - component: {fileID: 3388916196819582165}
   m_Layer: 0
-  m_Name: XBusterShot
+  m_Name: lv1ChargedShot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -166,18 +167,18 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 1029069388341940443, guid: b1ea16a8509e42048b51cc5b7e1f56bd, type: 3}
+  m_Sprite: {fileID: -3805790010177584857, guid: b1ea16a8509e42048b51cc5b7e1f56bd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.08, y: 0.06}
+  m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5885864973487918587
+--- !u!114 &3388916196819582166
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -186,10 +187,31 @@ MonoBehaviour:
   m_GameObject: {fileID: 3388916196819582169}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b11dacc2035abb468af5e759116890b, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d450bbdc52fb6e4ab05966a5bcff3db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 700
+  speed: 750
   damage: 2
-  waitToDestroy: 5
-  particleSprites: []
+  waitToDestroy: 7
+  particleSprites:
+  - {fileID: -2184116205440239278, guid: b1ea16a8509e42048b51cc5b7e1f56bd, type: 3}
+  - {fileID: 1521159911348530467, guid: b1ea16a8509e42048b51cc5b7e1f56bd, type: 3}
+--- !u!95 &3388916196819582165
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3388916196819582169}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 670f768b2e325d549b577a3a8ffe7cb5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

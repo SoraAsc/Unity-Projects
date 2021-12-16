@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Diagnostics.CodeAnalysis.SuppressMessage("CodeQuality", "IDE0051:Remover membros privados não utilizados", Justification = "To avoid warnings in private methods provided by Unity.")]
-public class Enemy : Actor
+public class Enemy : NPC
 {
     private Shader hurthShader;
     private Shader defaultShader;
@@ -19,26 +19,32 @@ public class Enemy : Actor
     float hurthWait;
     private void Start()
     {
-        //Getting the components
         InitializeComponent();
+        InitializeHurthVar();
+    }
+
+    protected void InitializeHurthVar()
+    {
         hurthShader = Shader.Find("GUI/Text Shader");
         defaultShader = Shader.Find("Sprites/Default");
         hurthCoroutine = null;
     }
+
 
     IEnumerator CastExplosion(int runs=1, int currentRun = 1, float posX=0, float posY=0)
     {
          
         if (runs > 0)
         {
-            if(currentRun == 1) { posX = transform.position.x; posY = transform.position.y; sr.enabled = false; } //Make Random
+            if(currentRun == 1) { posX = transform.position.x; posY = transform.position.y; sr.enabled = false; }
+            else { posX = Random.Range(transform.position.x - 0.2f, transform.position.x + 0.2f); posY = Random.Range(transform.position.y, transform.position.y + 0.3f); }
             Animator aniExplosion = Instantiate(aniExplosionDeath, new Vector2(posX, posY), Quaternion.identity);
             runs--;
             currentRun++;
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(0.6f);
             Destroy(aniExplosion.gameObject);
             StartCoroutine(CastExplosion(runs, currentRun,posX,posY));
-        } else { Destroy(gameObject); }
+        } else { SelfDestruction(); }
         
     }
 
@@ -49,7 +55,7 @@ public class Enemy : Actor
             {
                 rd2.simulated = false;
                 
-                if (damage >= maxHp)
+                if (damage >= maxHp || (ani && !ani.GetCurrentAnimatorStateInfo(0).IsName("death")) ) //do
                 {
                     CallExplosion(1);                    
                 }
@@ -90,23 +96,7 @@ public class Enemy : Actor
         }
     }
 
-    /// <summary>
-    /// Enemy Movement
-    /// </summary>
-    /// <param name="dir"></param>
-    protected override void Movement(Vector2 dir)
-    {
-
-        if (dir.x > 0)
-            sr.flipX = true;
-        else if (dir.x < 0)
-            sr.flipX = false;
-
-        transform.Translate(dir.x * Time.deltaTime * speed * Vector2.right);
-
-    }
-
-    private void SelfDestruction()
+    protected virtual void SelfDestruction()
     {
         Destroy(gameObject);
     }

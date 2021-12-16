@@ -6,18 +6,25 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
     [SerializeField]
-    Enemy enemy;
+    NPC npc;
     [SerializeField]
     Vector2 offset;
     [SerializeField]
-    Enemy spawnedEnemy;
+    NPC spawnedEnemy;
+    [SerializeField]
+    bool uniqueSpawn;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player") && spawnedEnemy == null && other.transform.localScale.x > 0)
         {
-            spawnedEnemy = Instantiate(enemy, new Vector2(transform.position.x,transform.position.y)+offset,Quaternion.identity);
-        }   
+            spawnedEnemy = Instantiate(npc, new Vector2(transform.position.x,npc.transform.position.y)+offset,Quaternion.identity);
+            if (uniqueSpawn)
+            {
+                Destroy(gameObject);
+            }
+        }
+
     }
 
 }
