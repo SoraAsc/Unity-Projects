@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 [System.Diagnostics.CodeAnalysis.SuppressMessage("Style", "IDE0044:Adicionar modificador somente leitura", Justification = "<Pendente>")]
-//[System.Diagnostics.CodeAnalysis.SuppressMessage("CodeQuality", "IDE0051:Remover membros privados não utilizados", Justification = "To avoid warnings in private methods provided by Unity.")]
+//[System.Diagnostics.CodeAnalysis.SuppressMessage("CodeQuality", "IDE0051:Remover membros privados nï¿½o utilizados", Justification = "To avoid warnings in private methods provided by Unity.")]
 public class Player : Actor
 {
 
@@ -15,7 +15,7 @@ public class Player : Actor
     [SerializeField] bool isGround;
     [SerializeField] bool isWallSliding;
     [SerializeField]
-    private float extraHeight, jumpPower, extraDisWall,circleRadius;
+    private float extraHeight, jumpPower, extraDisWall;
     [SerializeField] private Vector2 wallJumpPower;
     InputControl control;
     BoxCollider2D box;
@@ -59,7 +59,7 @@ public class Player : Actor
         control.Player.Shot.started += _ => { if (isAlive) isHoldShoot = true; };
         control.Player.Shot.performed += _ => { if (isAlive) { shotNow = true; } };
         control.Player.Shot.canceled += _ => { if (isAlive) { isHoldShoot = false; ani.SetBool("shot", shotNow); } };
-        
+
         LoadMaxStatus();
     }
 
@@ -90,26 +90,27 @@ public class Player : Actor
         Flip(dir.x);
 
         rd2.velocity = new Vector2(dir.x * Time.deltaTime * speed, rd2.velocity.y);
-        
-        if(isWallSliding && !isGround && rd2.velocity.y<-1.5f)
+
+        if (isWallSliding && !isGround && rd2.velocity.y < -1.5f)
         {
             rd2.velocity = new Vector2(rd2.velocity.x, -1.5f);
         }
 
-        Jump(dir,transform.localScale.x);
+        Jump(dir, transform.localScale.x);
         ani.SetFloat("verticalMove", dir.y);
         ani.SetFloat("horizontalMove", Mathf.Abs(dir.x));
         ani.SetBool("isGround", isGround);
         ani.SetBool("isWallSliding", isWallSliding);
     }
 
-    private void Jump(Vector2 dir,float xDir) //xDir > 0 ? right : left
+    private void Jump(Vector2 dir, float xDir) //xDir > 0 ? right : left
     {
         if (dir.y > 0 && isGround)
         {
             rd2.velocity = Vector2.zero;
             rd2.AddForce(Vector2.up * Time.deltaTime * jumpPower * dir.y, ForceMode2D.Impulse);
-        }  else if (dir.y > 0 && !isGround && isWallSliding)
+        }
+        else if (dir.y > 0 && !isGround && isWallSliding)
         {
             canMove = false;
             rd2.velocity = Vector2.zero;
@@ -158,7 +159,7 @@ public class Player : Actor
     private bool IsWallSliding()
     {
         RaycastHit2D rayH2D = Physics2D.BoxCast(wallBox.bounds.center, wallBox.bounds.size, 0f,
-            transform.localScale.x > 0 ? Vector2.right : Vector2.left,extraDisWall, layerMask) ;
+            transform.localScale.x > 0 ? Vector2.right : Vector2.left, extraDisWall, layerMask);
 
         return rayH2D.collider != null;
     }
@@ -177,7 +178,7 @@ public class Player : Actor
     private void Shot(int signal)
     {
         if (canShoot && shotNow && !isHoldShoot)
-        {           
+        {
             CreateShot(signal);
 
             canShoot = false;
@@ -195,7 +196,7 @@ public class Player : Actor
     {
         GameObject bullet = Instantiate(bullets[ShotSelect()], new Vector2(shotZone.position.x, shotZone.position.y), Quaternion.identity);
         bullet.transform.localScale = new Vector2(transform.localScale.x, transform.localScale.y);
-        bullet.transform.GetChild(0).GetComponent<Ammo>().Direction( (transform.localScale.x > 0 ? 1 : -1) * signal);
+        bullet.transform.GetChild(0).GetComponent<Ammo>().Direction((transform.localScale.x > 0 ? 1 : -1) * signal);
     }
 
     private int ShotSelect()
@@ -224,7 +225,7 @@ public class Player : Actor
         if (isHoldShoot)
         {
             int selectedShot = ShotSelect();
-            if(selectedShot>0) ani.Play(selectedShot >=2 ? "ChargingLv2" : selectedShot>=1 ? "ChargingLv1" : "Default");
+            if (selectedShot > 0) ani.Play(selectedShot >= 2 ? "ChargingLv2" : selectedShot >= 1 ? "ChargingLv1" : "Default");
         }
     }
 
@@ -279,7 +280,7 @@ public class Player : Actor
             if (other.transform.parent) Destroy(other.transform.parent.gameObject);
             else Destroy(other.gameObject);
         }
-       
+
     }
 
     protected override void Hurth()
@@ -289,8 +290,8 @@ public class Player : Actor
     }
 
     IEnumerator ProcInvincible()
-    {     
-        for(int i = 0; i < 10; i++)
+    {
+        for (int i = 0; i < 10; i++)
         {
             yield return new WaitForSeconds(0.1f);
             ChangeTransparency(new Color32(255, 255, 255, 127));
@@ -305,7 +306,7 @@ public class Player : Actor
     void ChangeTransparency(Color32 color)
     {
         foreach (SpriteRenderer srC in GetComponentsInChildren<SpriteRenderer>())
-        {            
+        {
             srC.color = color;
         }
     }
@@ -316,6 +317,6 @@ public class Player : Actor
 
     private void GlowChar(int isActive)
     {
-        sr.material.SetInt("_isGlowing",isActive);
+        sr.material.SetInt("_isGlowing", isActive);
     }
 }
