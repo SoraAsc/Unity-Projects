@@ -1,17 +1,11 @@
-# **Unity Training Projects**
+# **Unity Projects**
 
-#### All of these project are a challenge that i define to myself to train and improve my abilities.
+#### 
 
-# **Details**
+## **Visão Geral**
 
-- My focus will be on implementing the features, so most of the assets will not be mine.
+- Aqui se encontra jogos criados por mim ou clones de algum outro jogo, que eu ache interessante para praticar no meu tempo livre.
 
-# **Downloads**
+## **Projetos em Andamento**
 
-##### Windows
-
-
-##### Android
-
-# **Images**
-
+- Mega Man X
