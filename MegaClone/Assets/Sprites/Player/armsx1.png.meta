@@ -4,22 +4,34 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -9162209410271469205
-    second: armsx1_idle0
+    second: armsx1_slidebegin0
   - first:
       213: -2781056131793630826
-    second: armsx1_idle1
+    second: armsx1_slidebegin1
   - first:
       213: 2343955213407132569
-    second: armsx1_idle2
+    second: armsx1_slide0
   - first:
       213: 4862266220145668626
-    second: armsx1_idle3
+    second: armsx1_slidejump0
   - first:
       213: 531916598672894526
-    second: armsx1_fire0
+    second: armsx1_slidefall0
   - first:
       213: 1429658090979179931
-    second: armsx1_fire1
+    second: armsx1_slidebeginfire0
+  - first:
+      213: -5238071122760165268
+    second: armsx1_slidebeginfire1
+  - first:
+      213: -8351643070405101308
+    second: armsx1_slidefire0
+  - first:
+      213: -1697279731739200722
+    second: armsx1_slidejumpfire0
+  - first:
+      213: 5087895559988060919
+    second: armsx1_slidefallfire0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -264,7 +276,7 @@ TextureImporter:
         serializedVersion: 2
         x: 365
         y: 306
-        width: 30
+        width: 31
         height: 34
       alignment: 9
       pivot: {x: 0.4825958, y: 0.3372219}
@@ -285,7 +297,7 @@ TextureImporter:
         serializedVersion: 2
         x: 402
         y: 306
-        width: 29
+        width: 30
         height: 34
       alignment: 9
       pivot: {x: 0.4825958, y: 0.3372219}
@@ -747,7 +759,7 @@ TextureImporter:
         serializedVersion: 2
         x: 41
         y: 228
-        width: 29
+        width: 30
         height: 34
       alignment: 9
       pivot: {x: 0.3436579, y: 0.3389462}
@@ -768,7 +780,7 @@ TextureImporter:
         serializedVersion: 2
         x: 76
         y: 227
-        width: 32
+        width: 33
         height: 35
       alignment: 9
       pivot: {x: 0.3498912, y: 0.3389462}
@@ -789,7 +801,7 @@ TextureImporter:
         serializedVersion: 2
         x: 115
         y: 227
-        width: 35
+        width: 36
         height: 34
       alignment: 9
       pivot: {x: 0.4500942, y: 0.3389462}
@@ -810,7 +822,7 @@ TextureImporter:
         serializedVersion: 2
         x: 159
         y: 228
-        width: 38
+        width: 39
         height: 33
       alignment: 9
       pivot: {x: 0.45009452, y: 0.3389462}
@@ -831,7 +843,7 @@ TextureImporter:
         serializedVersion: 2
         x: 204
         y: 228
-        width: 34
+        width: 35
         height: 33
       alignment: 9
       pivot: {x: 0.38916957, y: 0.3389462}
@@ -852,7 +864,7 @@ TextureImporter:
         serializedVersion: 2
         x: 246
         y: 228
-        width: 31
+        width: 32
         height: 34
       alignment: 9
       pivot: {x: 0.35208425, y: 0.3389462}
@@ -873,7 +885,7 @@ TextureImporter:
         serializedVersion: 2
         x: 284
         y: 227
-        width: 33
+        width: 34
         height: 35
       alignment: 9
       pivot: {x: 0.37568897, y: 0.3389462}
@@ -894,7 +906,7 @@ TextureImporter:
         serializedVersion: 2
         x: 326
         y: 228
-        width: 35
+        width: 36
         height: 34
       alignment: 9
       pivot: {x: 0.4500942, y: 0.3389462}
@@ -915,7 +927,7 @@ TextureImporter:
         serializedVersion: 2
         x: 369
         y: 228
-        width: 37
+        width: 38
         height: 33
       alignment: 9
       pivot: {x: 0.4500942, y: 0.3389462}
@@ -936,7 +948,7 @@ TextureImporter:
         serializedVersion: 2
         x: 413
         y: 228
-        width: 35
+        width: 36
         height: 33
       alignment: 9
       pivot: {x: 0.4500942, y: 0.3389462}
@@ -957,7 +969,7 @@ TextureImporter:
         serializedVersion: 2
         x: 201
         y: 184
-        width: 29
+        width: 30
         height: 37
       alignment: 9
       pivot: {x: 0.3808936, y: 0.4256695}
@@ -978,7 +990,7 @@ TextureImporter:
         serializedVersion: 2
         x: 240
         y: 180
-        width: 24
+        width: 25
         height: 41
       alignment: 9
       pivot: {x: 0.29627547, y: 0.5}
@@ -999,7 +1011,7 @@ TextureImporter:
         serializedVersion: 2
         x: 271
         y: 177
-        width: 27
+        width: 28
         height: 46
       alignment: 9
       pivot: {x: 0.41471353, y: 0.4933402}
@@ -1020,7 +1032,7 @@ TextureImporter:
         serializedVersion: 2
         x: 304
         y: 178
-        width: 31
+        width: 32
         height: 41
       alignment: 9
       pivot: {x: 0.42041212, y: 0.4526788}
@@ -1041,7 +1053,7 @@ TextureImporter:
         serializedVersion: 2
         x: 341
         y: 177
-        width: 31
+        width: 32
         height: 42
       alignment: 9
       pivot: {x: 0.4184265, y: 0.4294928}
@@ -1062,7 +1074,7 @@ TextureImporter:
         serializedVersion: 2
         x: 378
         y: 180
-        width: 30
+        width: 31
         height: 38
       alignment: 9
       pivot: {x: 0.36490378, y: 0.4140095}
@@ -1083,7 +1095,7 @@ TextureImporter:
         serializedVersion: 2
         x: 413
         y: 184
-        width: 36
+        width: 37
         height: 32
       alignment: 9
       pivot: {x: 0.42232853, y: 0.34579945}
@@ -1136,6 +1148,216 @@ TextureImporter:
       bones: []
       spriteID: 33dc8f6d5c081a160800000000000000
       internalID: 7035045680132967731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armsx1_slidebegin0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 130
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b612707b51b49d080800000000000000
+      internalID: -9162209410271469205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armsx1_slidebegin1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 130
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699c40cce24b769d0800000000000000
+      internalID: -2781056131793630826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armsx1_slide0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 131
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b9e8809d6678020800000000000000
+      internalID: 2343955213407132569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armsx1_slidejump0
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 131
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212f927ad5d3a7340800000000000000
+      internalID: 4862266220145668626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armsx1_slidefall0
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 130
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a280a045fb16700800000000000000
+      internalID: 531916598672894526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armsx1_slidebeginfire0
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 130
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9db317857a27d310800000000000000
+      internalID: 1429658090979179931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armsx1_slidebeginfire1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 130
+        width: 33
+        height: 43
+      alignment: 9
+      pivot: {x: 0.51, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6816abf012ae47b0800000000000000
+      internalID: -5238071122760165268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armsx1_slidefire0
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 131
+        width: 33
+        height: 42
+      alignment: 9
+      pivot: {x: 0.51, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409b6a950e0091c80800000000000000
+      internalID: -8351643070405101308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armsx1_slidejumpfire0
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 131
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23f639931d0278e0800000000000000
+      internalID: -1697279731739200722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: armsx1_slidefallfire0
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 130
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f220631e06db9640800000000000000
+      internalID: 5087895559988060919
       vertices: []
       indices: 
       edges: []

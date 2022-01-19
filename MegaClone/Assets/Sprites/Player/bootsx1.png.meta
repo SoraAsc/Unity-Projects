@@ -4,34 +4,34 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -124937956490717564
-    second: bootsx1_idle0
+    second: bootsx1_slidebegin0
   - first:
       213: 7178830937279869024
-    second: bootsx1_idle1
+    second: bootsx1_slidebegin1
   - first:
       213: 474501493930814697
-    second: bootsx1_idle2
+    second: bootsx1_slide0
   - first:
       213: -8593392182718158068
-    second: bootsx1_idle3
+    second: bootsx1_slidejump0
   - first:
       213: -8678516158050025759
-    second: bootsx1_fire0
+    second: bootsx1_slidefall0
   - first:
       213: 8799674333468139460
-    second: bootsx1_fire1
+    second: bootsx1_slidebeginfire0
   - first:
       213: 7890432452338091839
-    second: bootsx1_walk0
+    second: bootsx1_slidebeginfire1
   - first:
       213: -2527383296671799117
-    second: bootsx1_walk1
+    second: bootsx1_slidefire0
   - first:
       213: 1417955803085572890
-    second: bootsx1_walk2
+    second: bootsx1_slidejumpfire0
   - first:
       213: 531302158579561596
-    second: bootsx1_walk3
+    second: bootsx1_slidefallfire0
   - first:
       213: 1249622795593090789
     second: bootsx1_walk4
@@ -1217,6 +1217,216 @@ TextureImporter:
       bones: []
       spriteID: 33dc8f6d5c081a160800000000000000
       internalID: 7035045680132967731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bootsx1_slidebegin0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 130
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486586c2791244ef0800000000000000
+      internalID: -124937956490717564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bootsx1_slidebegin1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 130
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060b62fc3b450a360800000000000000
+      internalID: 7178830937279869024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bootsx1_slide0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 131
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec632f3894c59600800000000000000
+      internalID: 474501493930814697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bootsx1_slidejump0
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 131
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b277de6532eb880800000000000000
+      internalID: -8593392182718158068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bootsx1_slidefall0
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 130
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eeb0f5f887bf8780800000000000000
+      internalID: -8678516158050025759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bootsx1_slidebeginfire0
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 130
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf9d710f29be1a70800000000000000
+      internalID: 8799674333468139460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bootsx1_slidebeginfire1
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 130
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3783d59282708d60800000000000000
+      internalID: 7890432452338091839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bootsx1_slidefire0
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 131
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b82f96484eececd0800000000000000
+      internalID: -2527383296671799117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bootsx1_slidejumpfire0
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 131
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b8e1e4a479da310800000000000000
+      internalID: 1417955803085572890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bootsx1_slidefallfire0
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 130
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74788e8f709f5700800000000000000
+      internalID: 531302158579561596
       vertices: []
       indices: 
       edges: []

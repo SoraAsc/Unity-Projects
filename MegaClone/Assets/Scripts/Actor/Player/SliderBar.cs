@@ -16,7 +16,7 @@ public class SliderBar : MonoBehaviour
     [SerializeField]
     Slider slider;
     readonly float delayToChange = 0.2f, multiply = 6.6875f;
-    
+
 
     int maxValue = 32;
 
@@ -33,27 +33,27 @@ public class SliderBar : MonoBehaviour
         StartCoroutine(ChangeSliderValue(runs, delayToChange, signal));
     }
 
-    IEnumerator IncreaseSliderMaxCapacity(int runs=1,float delay=0)
+    IEnumerator IncreaseSliderMaxCapacity(int runs = 1, float delay = 0)
     {
         yield return new WaitForSeconds(delay);
-        if (runs > 0 && slider.maxValue<maxValue)
+        if (runs > 0 && slider.maxValue < maxValue)
         {
             runs--;
             SliderSizeIncrease();
             slider.maxValue += 1;
             slider.value += 1;
-            StartCoroutine(IncreaseSliderMaxCapacity(runs,delay));
+            StartCoroutine(IncreaseSliderMaxCapacity(runs, delay));
         }
     }
 
-    IEnumerator ChangeSliderValue(int runs=1, float delay = 0, int signal=1)
+    IEnumerator ChangeSliderValue(int runs = 1, float delay = 0, int signal = 1)
     {
         yield return new WaitForSeconds(delay);
-        if(runs > 0 && slider.value <= slider.maxValue)
+        if (runs > 0 && slider.value <= slider.maxValue)
         {
             runs--;
-            slider.value+=signal;
-            StartCoroutine(ChangeSliderValue(runs, delay,signal));
+            slider.value += signal;
+            StartCoroutine(ChangeSliderValue(runs, delay, signal));
         }
     }
 

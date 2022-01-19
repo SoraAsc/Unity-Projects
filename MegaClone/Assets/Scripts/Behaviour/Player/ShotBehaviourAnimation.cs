@@ -6,6 +6,8 @@ public class ShotBehaviourAnimation : StateMachineBehaviour
 {
 
     private Player player;
+    [SerializeField]
+    int signal;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
@@ -15,7 +17,7 @@ public class ShotBehaviourAnimation : StateMachineBehaviour
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        player.CallShot();
+        player.CallShot(signal);
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state

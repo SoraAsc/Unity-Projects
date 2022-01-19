@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-[System.Diagnostics.CodeAnalysis.SuppressMessage("CodeQuality", "IDE0051:Remover membros privados não utilizados", Justification = "To avoid warnings in private methods provided by Unity.")]
+[System.Diagnostics.CodeAnalysis.SuppressMessage("CodeQuality", "IDE0051:Remover membros privados nï¿½o utilizados", Justification = "To avoid warnings in private methods provided by Unity.")]
 public class NPC : Actor
 {
     [SerializeField]
     protected Vector2 initialDi; //Initial Direction or distance.
+    //[SerializeField]
+    //protected Vector2 areaOutOfBoundsBegin, areaOutOfBoundsEnd;
 
     private void Start()
     {
@@ -26,7 +28,6 @@ public class NPC : Actor
     /// <param name="dir"></param>
     protected override void Movement(Vector2 dir)
     {
-
         Flip(dir);
         transform.Translate(dir.x * Time.deltaTime * speed * Vector2.right);
     }
@@ -42,5 +43,16 @@ public class NPC : Actor
     private void Update()
     {
         Movement(initialDi);
+        Limit();
     }
+
+    protected void Limit()
+    {
+        if (transform.position.x <= -14.4f || transform.position.y <= -36.4f)
+        {
+            Destroy(gameObject);
+        }
+    }
+
+
 }

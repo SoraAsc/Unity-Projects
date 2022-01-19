@@ -20,6 +20,36 @@ TextureImporter:
   - first:
       213: -542868149530741985
     second: bodyArmorx1_fire1
+  - first:
+      213: -4309165104694363723
+    second: bodiesArmorx1_slidebegin0
+  - first:
+      213: -7982170349285854051
+    second: bodiesArmorx1_slidebegin1
+  - first:
+      213: -5685764286537978117
+    second: bodiesArmorx1_slide0
+  - first:
+      213: -8847448259507733470
+    second: bodiesArmorx1_slidejump0
+  - first:
+      213: -3438394044648291593
+    second: bodiesArmorx1_slidefall0
+  - first:
+      213: -3039382424942559506
+    second: bodiesArmorx1_slidebeginfire0
+  - first:
+      213: -5990590794603556032
+    second: bodiesArmorx1_slidebeginfire1
+  - first:
+      213: -1976850394399065852
+    second: bodiesArmorx1_slidefire0
+  - first:
+      213: 6860047472836263374
+    second: bodiesArmorx1_slidejumpfire0
+  - first:
+      213: 6738868830031052040
+    second: bodiesArmorx1_slidefallfire0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -1136,6 +1166,216 @@ TextureImporter:
       bones: []
       spriteID: 33dc8f6d5c081a160800000000000000
       internalID: 7035045680132967731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bodiesArmorx1_slidebegin0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 130
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9fe201b25c234c0800000000000000
+      internalID: -4309165104694363723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bodiesArmorx1_slidebegin1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 130
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d943922db52a93190800000000000000
+      internalID: -7982170349285854051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bodiesArmorx1_slide0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 131
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe2d40818b1811b0800000000000000
+      internalID: -5685764286537978117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bodiesArmorx1_slidejump0
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 131
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22cb46b0fac873580800000000000000
+      internalID: -8847448259507733470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bodiesArmorx1_slidefall0
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 130
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f28be275de5840d0800000000000000
+      internalID: -3438394044648291593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bodiesArmorx1_slidebeginfire0
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 130
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeebbb0b9c1f1d5d0800000000000000
+      internalID: -3039382424942559506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bodiesArmorx1_slidebeginfire1
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 130
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0431eec69652ddca0800000000000000
+      internalID: -5990590794603556032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bodiesArmorx1_slidefire0
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 131
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409b0c34a01d094e0800000000000000
+      internalID: -1976850394399065852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bodiesArmorx1_slidejumpfire0
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 131
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecdb8b894d8c33f50800000000000000
+      internalID: 6860047472836263374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bodiesArmorx1_slidefallfire0
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 130
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80df3f13f75458d50800000000000000
+      internalID: 6738868830031052040
       vertices: []
       indices: 
       edges: []

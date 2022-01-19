@@ -19,7 +19,7 @@ MonoBehaviour:
   bootPart: 3
   bootstate: 3
   bootSpriteFrame:
-  - {fileID: -2527383296671799117, guid: 5b676fe283e0da847bb712de49e88c82, type: 3}
+  - {fileID: -3489406282880577296, guid: 5b676fe283e0da847bb712de49e88c82, type: 3}
   bodyPart: 4
   bodystate: 3
   bodySpriteFrame:

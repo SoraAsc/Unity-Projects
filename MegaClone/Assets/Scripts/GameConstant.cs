@@ -27,7 +27,10 @@ public static class GameConstant
         FALLRECOVERY,
         FALLRECOVERYSHOT,
         HURTH,
-        DEATH
+        DEATH,
+        WALLSLIDE,
+        WALLSLIDESHOT,
+        WALLSLIDEJUMP,
     }
 }
 

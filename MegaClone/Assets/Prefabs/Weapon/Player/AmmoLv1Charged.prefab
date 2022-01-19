@@ -94,6 +94,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosionAnimator: {fileID: 5102193557130195571, guid: 597038b9e057a3349b9cb1ff0c39af13, type: 3}
+  yourselfTag: Player
 --- !u!1 &3388916196819582169
 GameObject:
   m_ObjectHideFlags: 0
@@ -190,9 +191,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d450bbdc52fb6e4ab05966a5bcff3db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 750
+  speed: 250
   damage: 2
   waitToDestroy: 7
+  hasOneHit: 1
   particleSprites:
   - {fileID: -2184116205440239278, guid: b1ea16a8509e42048b51cc5b7e1f56bd, type: 3}
   - {fileID: 1521159911348530467, guid: b1ea16a8509e42048b51cc5b7e1f56bd, type: 3}

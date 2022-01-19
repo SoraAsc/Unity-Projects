@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[System.Diagnostics.CodeAnalysis.SuppressMessage("CodeQuality", "IDE0051:Remover membros privados não utilizados", Justification = "To avoid warnings in private methods provided by Unity.")]
+[System.Diagnostics.CodeAnalysis.SuppressMessage("CodeQuality", "IDE0051:Remover membros privados nï¿½o utilizados", Justification = "To avoid warnings in private methods provided by Unity.")]
 public class Ammo : MonoBehaviour
 {
     [Header("Ammo Default Attributes")]
@@ -13,21 +13,21 @@ public class Ammo : MonoBehaviour
     [SerializeField]
     protected float waitToDestroy;
 
-    private bool canMove=false;
+    protected bool canMove = false;
     [SerializeField]
-    private bool hasOneHit=true;
-    Animator ani;
-    Rigidbody2D rd2;
+    private bool hasOneHit = true;
+    protected Animator ani;
+    protected Rigidbody2D rd2;
 
     [SerializeField]
     protected Sprite[] particleSprites;
 
     public Sprite[] ParticleSprites { get => particleSprites; }
     public int Damage { get => damage; }
-    public bool HasOneHit { get => hasOneHit;  }
+    public bool HasOneHit { get => hasOneHit; }
 
 
-    #pragma warning disable IDE0051 // Remover membros privados não utilizados
+#pragma warning disable IDE0051 // Remover membros privados nï¿½o utilizados
     private void Awake()
     {
         InitializeComponent();
@@ -49,15 +49,15 @@ public class Ammo : MonoBehaviour
         StartCoroutine(DestroyAmmoAfter());
     }
 
-    
+
     private void Update()
     {
         Movement();
     }
 
-    #pragma warning restore IDE0051 // Remover membros privados não utilizados
+#pragma warning restore IDE0051 // Remover membros privados nï¿½o utilizados
 
-    public void Direction(int signal=1)
+    public void Direction(int signal = 1)
     {
         speed *= signal;
     }
@@ -73,7 +73,7 @@ public class Ammo : MonoBehaviour
     protected void ChangeMovementCondition()
     {
         canMove = !canMove;
-        if(ani) ani.SetBool("canMove", canMove);
+        if (ani) ani.SetBool("canMove", canMove);
     }
 
     IEnumerator DestroyAmmoAfter()

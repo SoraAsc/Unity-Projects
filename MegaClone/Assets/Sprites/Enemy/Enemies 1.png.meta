@@ -109,7 +109,7 @@ TextureImporter:
     second: Crusher_prepareAttack7
   - first:
       213: 740800591548669296
-    second: Crusher_prepareAttack8
+    second: B Blader_idle0
   - first:
       213: -3391812805334604572
     second: Crusher_prepareAttack0
@@ -134,6 +134,27 @@ TextureImporter:
   - first:
       213: -2828425816767639065
     second: Crusher_body
+  - first:
+      213: -5216036693171438956
+    second: B Blader_idle1
+  - first:
+      213: -3128666118122776560
+    second: B Blader_idle2
+  - first:
+      213: -6668923298711979740
+    second: B Blader_gunMark0
+  - first:
+      213: -1467639581504080706
+    second: B Blader_gunExplosion0
+  - first:
+      213: 944550450776119544
+    second: B Blader_ammo0
+  - first:
+      213: 4129704959922731415
+    second: B Blader_missile0
+  - first:
+      213: -882730553140733080
+    second: B Blader_missile1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -439,7 +460,7 @@ TextureImporter:
       name: GunVolt_idle0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 487
         width: 44
         height: 62
@@ -1145,6 +1166,174 @@ TextureImporter:
       bones: []
       spriteID: 7e1550e84b96fb8d0800000000000000
       internalID: -2828425816767639065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B Blader_idle0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 998
+        width: 125
+        height: 87
+      alignment: 9
+      pivot: {x: 0.5718735, y: 0.4872093}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d58ac863ad74a00800000000000000
+      internalID: 740800591548669296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B Blader_idle1
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 997
+        width: 125
+        height: 87
+      alignment: 9
+      pivot: {x: 0.5718735, y: 0.4872093}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49afc18634aec97b0800000000000000
+      internalID: -5216036693171438956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B Blader_idle2
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 997
+        width: 125
+        height: 87
+      alignment: 9
+      pivot: {x: 0.5718735, y: 0.4872093}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018dd70fdbeb494d0800000000000000
+      internalID: -3128666118122776560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B Blader_gunMark0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 860
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42932f1e7993373a0800000000000000
+      internalID: -6668923298711979740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B Blader_gunExplosion0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 728
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb475269395e1abe0800000000000000
+      internalID: -1467639581504080706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B Blader_ammo0
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 662
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f812fa61a7bb1d00800000000000000
+      internalID: 944550450776119544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B Blader_missile0
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 670
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799fc5be7c8af4930800000000000000
+      internalID: 4129704959922731415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B Blader_missile1
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 649
+        width: 16
+        height: 12
+      alignment: 9
+      pivot: {x: 0.4711218, y: 0.44224548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b99a32d39efb3f0800000000000000
+      internalID: -882730553140733080
       vertices: []
       indices: 
       edges: []

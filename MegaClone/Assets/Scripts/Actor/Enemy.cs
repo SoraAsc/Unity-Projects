@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[System.Diagnostics.CodeAnalysis.SuppressMessage("CodeQuality", "IDE0051:Remover membros privados não utilizados", Justification = "To avoid warnings in private methods provided by Unity.")]
+[System.Diagnostics.CodeAnalysis.SuppressMessage("CodeQuality", "IDE0051:Remover membros privados nï¿½o utilizados", Justification = "To avoid warnings in private methods provided by Unity.")]
 public class Enemy : NPC
 {
     private Shader hurthShader;
@@ -31,21 +31,21 @@ public class Enemy : NPC
     }
 
 
-    IEnumerator CastExplosion(int runs=1, int currentRun = 1, float posX=0, float posY=0)
+    IEnumerator CastExplosion(int runs = 1, int currentRun = 1)
     {
-         
+        float posX, posY;
         if (runs > 0)
         {
-            if(currentRun == 1) { posX = transform.position.x; posY = transform.position.y; sr.enabled = false; }
+            if (currentRun == 1) { posX = transform.position.x; posY = transform.position.y; sr.enabled = false; }
             else { posX = Random.Range(transform.position.x - 0.2f, transform.position.x + 0.2f); posY = Random.Range(transform.position.y, transform.position.y + 0.3f); }
             Animator aniExplosion = Instantiate(aniExplosionDeath, new Vector2(posX, posY), Quaternion.identity);
             runs--;
             currentRun++;
-            yield return new WaitForSeconds(0.6f);
-            Destroy(aniExplosion.gameObject);
-            StartCoroutine(CastExplosion(runs, currentRun,posX,posY));
-        } else { SelfDestruction(); }
-        
+            //yield return new WaitForSeconds(0.55f);
+            StartCoroutine(CastExplosion(runs, currentRun));
+        }
+        else { SelfDestruction(); }
+        yield return null;
     }
 
     protected override void CheckIfIsDeath(int damage)
@@ -53,11 +53,16 @@ public class Enemy : NPC
         {
             if (hp <= 0)
             {
-                rd2.simulated = false;
-                
-                if (damage >= maxHp || (ani && !ani.GetCurrentAnimatorStateInfo(0).IsName("death")) ) //do
+                if (rd2) rd2.simulated = false;
+                List<AnimationClip> aniClipList = new List<AnimationClip>();
+                if (ani)
                 {
-                    CallExplosion(1);                    
+                    AnimationClip[] aniClip = ani.runtimeAnimatorController.animationClips;
+                    aniClipList.AddRange(aniClip);
+                }
+                if (damage >= maxHp || !ani || (ani && !aniClipList.Find(x => x.name.Equals("death"))))
+                {
+                    CallExplosion(1);
                 }
                 else { ani.Play("death", 0, 0.0f); }
                 isAlive = false;
@@ -72,8 +77,8 @@ public class Enemy : NPC
 
     protected override void Hurth()
     {
-        if(hurthCoroutine!=null) { StopCoroutine(hurthCoroutine); hurthCoroutine = null; }
-        hurthCoroutine = StartCoroutine(HurthProc());        
+        if (hurthCoroutine != null) { StopCoroutine(hurthCoroutine); hurthCoroutine = null; }
+        hurthCoroutine = StartCoroutine(HurthProc());
     }
 
     IEnumerator HurthProc(int currentLoop = 1, int limit = 1)
@@ -88,6 +93,11 @@ public class Enemy : NPC
         }
     }
     private void OnTriggerEnter2D(Collider2D other)
+    {
+        AmmoDetected(other);
+    }
+
+    protected void AmmoDetected(Collider2D other)
     {
         if (other.CompareTag("PAmmo") && isAlive)
         {

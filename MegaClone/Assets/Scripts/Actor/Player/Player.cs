@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 [System.Diagnostics.CodeAnalysis.SuppressMessage("Style", "IDE0044:Adicionar modificador somente leitura", Justification = "<Pendente>")]
-[System.Diagnostics.CodeAnalysis.SuppressMessage("CodeQuality", "IDE0051:Remover membros privados não utilizados", Justification = "To avoid warnings in private methods provided by Unity.")]
+//[System.Diagnostics.CodeAnalysis.SuppressMessage("CodeQuality", "IDE0051:Remover membros privados não utilizados", Justification = "To avoid warnings in private methods provided by Unity.")]
 public class Player : Actor
 {
 
@@ -15,7 +15,8 @@ public class Player : Actor
     [SerializeField] bool isGround;
     [SerializeField] bool isWallSliding;
     [SerializeField]
-    private float extraHeight, jumpPower, extraDisWall;
+    private float extraHeight, jumpPower, extraDisWall,circleRadius;
+    [SerializeField] private Vector2 wallJumpPower;
     InputControl control;
     BoxCollider2D box;
     BoxCollider2D wallBox;
@@ -30,7 +31,6 @@ public class Player : Actor
     float shotCurrentDelay, shotHoldCurrentDelay;
     bool canShoot, shotNow, isHoldShoot;
     Coroutine disableShotWait;
-    private ParticleSystem pS;
 
     private readonly float deathParticleRotateVelocity = 80;
 
@@ -38,21 +38,19 @@ public class Player : Actor
     [SerializeField]
     private SliderBar lifeBar;
 
-
+    float initialXScale = 6;
     private void Awake()
     {
         //Reset
         canShoot = true;
-        shotNow = false;
-        isGround = false;
-        isWallSliding = false;
-        shotCurrentDelay = 0;
-        shotHoldCurrentDelay = 0;
+        shotNow = isGround = isWallSliding = false;
+        shotCurrentDelay = shotHoldCurrentDelay = 0;
+        initialXScale = Mathf.Abs(transform.localScale.x);
+        transform.localScale = new Vector2(initialXScale, initialXScale);
 
         //Getting the components
         InitializeComponent();
-        pS = transform.GetComponentInChildren<ParticleSystem>();
-        pS.Stop();
+
         control = new InputControl();
         box = GetComponent<BoxCollider2D>();
         wallBox = transform.GetChild(3).GetComponent<BoxCollider2D>();
@@ -87,10 +85,16 @@ public class Player : Actor
 
     protected override void Movement(Vector2 dir)
     {
+        if (!canMove) return;
+
         Flip(dir.x);
 
-        Vector2 tempNewPos = dir.x * Time.deltaTime * speed * Vector2.right;
-        rd2.velocity = new Vector2(tempNewPos.x, rd2.velocity.y);
+        rd2.velocity = new Vector2(dir.x * Time.deltaTime * speed, rd2.velocity.y);
+        
+        if(isWallSliding && !isGround && rd2.velocity.y<-1.5f)
+        {
+            rd2.velocity = new Vector2(rd2.velocity.x, -1.5f);
+        }
 
         Jump(dir,transform.localScale.x);
         ani.SetFloat("verticalMove", dir.y);
@@ -101,28 +105,30 @@ public class Player : Actor
 
     private void Jump(Vector2 dir,float xDir) //xDir > 0 ? right : left
     {
-        if (dir.y > 0 && !isGround && isWallSliding)
+        if (dir.y > 0 && isGround)
         {
-            rd2.AddForce(new Vector2(xDir > 0 ? -10 : 10, 2) * Time.deltaTime * jumpPower * dir.y, ForceMode2D.Impulse);
-        }
-        else if (dir.y > 0 && isGround)
-        {
+            rd2.velocity = Vector2.zero;
             rd2.AddForce(Vector2.up * Time.deltaTime * jumpPower * dir.y, ForceMode2D.Impulse);
-
+        }  else if (dir.y > 0 && !isGround && isWallSliding)
+        {
+            canMove = false;
+            rd2.velocity = Vector2.zero;
+            rd2.AddForce(new Vector2(xDir > 0 ? -wallJumpPower.x : wallJumpPower.x, wallJumpPower.y * dir.y) * Time.deltaTime, ForceMode2D.Impulse);
+            Invoke(nameof(TurnOnMovement), 0.09f);
         }
     }
 
     private void Flip(float x)
     {
         if (x > 0)
-            transform.localScale = new Vector2(7, transform.localScale.y);
+            transform.localScale = new Vector2(initialXScale, transform.localScale.y);
         else if (x < 0)
-            transform.localScale = new Vector2(-7, transform.localScale.y);
+            transform.localScale = new Vector2(-initialXScale, transform.localScale.y);
     }
 
-    public void CallShot()
+    public void CallShot(int signal = 1)
     {
-        Shot();
+        Shot(signal);
     }
 
     private void OnEnable() => control.Enable();
@@ -151,7 +157,7 @@ public class Player : Actor
 
     private bool IsWallSliding()
     {
-        RaycastHit2D rayH2D = Physics2D.BoxCast(wallBox.bounds.center, wallBox.bounds.size - new Vector3(0.1f, 0.0f, 0f), 0f,
+        RaycastHit2D rayH2D = Physics2D.BoxCast(wallBox.bounds.center, wallBox.bounds.size, 0f,
             transform.localScale.x > 0 ? Vector2.right : Vector2.left,extraDisWall, layerMask) ;
 
         return rayH2D.collider != null;
@@ -168,12 +174,11 @@ public class Player : Actor
         }
     }
 
-    private void Shot()
+    private void Shot(int signal)
     {
         if (canShoot && shotNow && !isHoldShoot)
-        {
-            pS.Stop();
-            CreateShot();
+        {           
+            CreateShot(signal);
 
             canShoot = false;
             shotNow = false;
@@ -186,11 +191,11 @@ public class Player : Actor
         }
     }
 
-    private void CreateShot()
+    private void CreateShot(int signal)
     {
         GameObject bullet = Instantiate(bullets[ShotSelect()], new Vector2(shotZone.position.x, shotZone.position.y), Quaternion.identity);
         bullet.transform.localScale = new Vector2(transform.localScale.x, transform.localScale.y);
-        bullet.transform.GetChild(0).GetComponent<Ammo>().Direction(transform.localScale.x > 0 ? 1 : -1);
+        bullet.transform.GetChild(0).GetComponent<Ammo>().Direction( (transform.localScale.x > 0 ? 1 : -1) * signal);
     }
 
     private int ShotSelect()
@@ -218,26 +223,8 @@ public class Player : Actor
     {
         if (isHoldShoot)
         {
-            ChangeParticleAnimationSheet();
-        }
-    }
-    private void ChangeParticleAnimationSheet()
-    {
-        ParticleSystem.TextureSheetAnimationModule textureSAnimation = pS.textureSheetAnimation;
-        for (int i = 0; i < pS.textureSheetAnimation.spriteCount; i++)
-        {
-            textureSAnimation.RemoveSprite(i);
-        }
-        int selecShot = ShotSelect();
-        Ammo ammo = bullets[selecShot].GetComponentInChildren<Ammo>();
-
-        if (ammo.ParticleSprites.Length > 0)
-        {
-            for (int i = 0; i < ammo.ParticleSprites.Length; i++)
-            {
-                textureSAnimation.AddSprite(ammo.ParticleSprites[i]);
-            }
-            pS.Play();
+            int selectedShot = ShotSelect();
+            if(selectedShot>0) ani.Play(selectedShot >=2 ? "ChargingLv2" : selectedShot>=1 ? "ChargingLv1" : "Default");
         }
     }
 
@@ -271,6 +258,7 @@ public class Player : Actor
             ReceiveDamage(other.gameObject.GetComponentInChildren<Ammo>());
         }
     }
+
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("EAmmo") && isAlive)
@@ -281,7 +269,6 @@ public class Player : Actor
 
     private void ReceiveDamage(Ammo other)
     {
-
         Hurth();
         int damage = other.Damage;
         LoseHealth(damage);
@@ -289,7 +276,8 @@ public class Player : Actor
 
         if (other.HasOneHit)
         {
-            Destroy(other.gameObject);
+            if (other.transform.parent) Destroy(other.transform.parent.gameObject);
+            else Destroy(other.gameObject);
         }
        
     }
@@ -320,5 +308,14 @@ public class Player : Actor
         {            
             srC.color = color;
         }
+    }
+    private void TurnOnMovement()
+    {
+        canMove = true;
+    }
+
+    private void GlowChar(int isActive)
+    {
+        sr.material.SetInt("_isGlowing",isActive);
     }
 }

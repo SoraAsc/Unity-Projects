@@ -15,11 +15,11 @@ MonoBehaviour:
   armPart: 2
   armState: 2
   armSpriteFrame:
-  - {fileID: 1429658090979179931, guid: cd865ce7244471f4f9c5af93b7096bab, type: 3}
+  - {fileID: 7845489481650775132, guid: cd865ce7244471f4f9c5af93b7096bab, type: 3}
   bootPart: 3
   bootstate: 2
   bootSpriteFrame:
-  - {fileID: 8799674333468139460, guid: 5b676fe283e0da847bb712de49e88c82, type: 3}
+  - {fileID: 4415215628197936241, guid: 5b676fe283e0da847bb712de49e88c82, type: 3}
   bodyPart: 4
   bodystate: 2
   bodySpriteFrame:

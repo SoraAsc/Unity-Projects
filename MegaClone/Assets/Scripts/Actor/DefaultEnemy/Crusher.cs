@@ -5,7 +5,6 @@ using UnityEngine;
 [System.Diagnostics.CodeAnalysis.SuppressMessage("CodeQuality", "IDE0051:Remover membros privados não utilizados", Justification = "To avoid warnings in private methods provided by Unity.")]
 public class Crusher : Enemy
 {
-    Vector3 startPos;
     [SerializeField]
     Transform crusherLine, crusherSpikes;
     SpriteRenderer crusherLineRenderer;
@@ -17,8 +16,7 @@ public class Crusher : Enemy
     [SerializeField]
     float waitDelayToAttack = 5f;
 
-    bool isAttacking = false, hitFloor = false, canMove = true;
-    float time;
+    bool isAttacking = false, hitFloor = false;
 
     public bool HitFloor { get => hitFloor; set => hitFloor = value; }
 
@@ -28,21 +26,24 @@ public class Crusher : Enemy
         InitializeComponent();
         InitializeHurthVar();
         delayToAttack = 0;
-        startPos = transform.position;
         isAttacking = false;
         hitFloor = false;
         canMove = true;
         crusherLineRenderer = crusherLine.GetComponent<SpriteRenderer>();
-        time = 0;
     }
-
 
     protected override void Movement(Vector2 dir)
     {
-        Vector3 nextPos = transform.position;
-        nextPos.x = speed > 0 ? startPos.x + dir.x + dir.x * Mathf.Sin(((Mathf.PI * 2) / speed) * time) : transform.position.x;
-        time +=  speed > 0 ? Time.deltaTime : 0;
-        transform.position = nextPos;
+        transform.Translate(speed * Time.deltaTime * Vector2.right);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        AmmoDetected(other);
+        if (other.CompareTag("PatrolArea"))
+        {
+            speed *= -1;
+        }
     }
 
     private void Update()
@@ -55,6 +56,7 @@ public class Crusher : Enemy
         {
             delayToAttack += Time.deltaTime;
         }
+        
         if (delayToAttack >= waitDelayToAttack)
         {
             ani.SetBool("attack", true);
@@ -85,7 +87,7 @@ public class Crusher : Enemy
 
     IEnumerator MoveSpikeToTargetYPos(float targetY, bool isDown=true, bool firstRun=true)
     {
-        float signal = isDown ? -0.01f : 0.01f;
+        float signal = isDown ? -0.02f : 0.02f;
         while( ( (isDown && crusherSpikes.localPosition.y > targetY && crusherSpikes.localPosition.y > -lineLimit && !hitFloor)
            || (!isDown && crusherSpikes.localPosition.y < targetY && crusherSpikes.localPosition.y < defaultCrushSpikesY) ) 
            && isAlive && crusherSpikes)

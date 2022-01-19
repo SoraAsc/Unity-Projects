@@ -14,10 +14,12 @@ public abstract class Actor : MonoBehaviour
     protected Transform deathParticle;
     protected bool isAlive = true;
     protected bool isInvincible = false;
+    protected bool canMove;
 
     protected Animator ani;
     protected SpriteRenderer sr;
     protected Rigidbody2D rd2;
+
 
     public int Damage { get => damage; }
 
@@ -25,6 +27,7 @@ public abstract class Actor : MonoBehaviour
     {
         isAlive = true;
         isInvincible = false;
+        canMove = true;
         ani = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
         rd2 = GetComponent<Rigidbody2D>();
@@ -58,12 +61,4 @@ public abstract class Actor : MonoBehaviour
 
     protected abstract void Movement(Vector2 dir);
 
-
-    protected void Limit()
-    {
-        if(transform.position.x <= -14.4f || transform.position.y<= -36.4f)
-        {
-            Destroy(gameObject);
-        }
-    }
 }
