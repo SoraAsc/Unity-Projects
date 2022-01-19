@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6759f1803c152447aa86eaf8182bc6c, type: 3}
+  m_Name: idleFire 1
+  m_EditorClassIdentifier: 
+  armPart: 2
+  armState: 2
+  armSpriteFrame:
+  - {fileID: 7845489481650775132, guid: cd865ce7244471f4f9c5af93b7096bab, type: 3}
+  bootPart: 3
+  bootstate: 2
+  bootSpriteFrame:
+  - {fileID: 4415215628197936241, guid: 5b676fe283e0da847bb712de49e88c82, type: 3}
+  bodyPart: 4
+  bodystate: 2
+  bodySpriteFrame:
+  - {fileID: -3971245903524938544, guid: 1ccf410ffe93020479053d369c8a3d8d, type: 3}

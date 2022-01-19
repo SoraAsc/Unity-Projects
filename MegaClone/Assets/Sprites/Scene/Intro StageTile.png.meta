@@ -1,0 +1,4866 @@
+fileFormatVersion: 2
+guid: 26efe3c8e969de142879fce34c8ca5c9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6323270926392402664
+    second: Intro Stage_bg
+  - first:
+      213: 8417544086813704247
+    second: Intro Stage_1
+  - first:
+      213: 5411807722398292427
+    second: Intro Stage_2
+  - first:
+      213: 2359904715096750536
+    second: Intro Stage_4
+  - first:
+      213: 4023488860501139752
+    second: IntroStageTile_PilarFim0
+  - first:
+      213: -7827463051762474512
+    second: IntroStageTile_PilarFim1
+  - first:
+      213: -7172969948789672205
+    second: IntroStageTile_PilarFim2
+  - first:
+      213: 5963238379450104355
+    second: IntroStageTile_PilarInicio0
+  - first:
+      213: 7556964223785413601
+    second: IntroStageTile_PilarInicio1
+  - first:
+      213: -2433237654264319636
+    second: IntroStageTile_PilarInicio2
+  - first:
+      213: -4648042275980978030
+    second: IntroStageTile_PilarMeio0
+  - first:
+      213: -1327477442647195734
+    second: IntroStageTile_PilarMeio1
+  - first:
+      213: 2756226813808722399
+    second: IntroStageTile_PilarMeio2
+  - first:
+      213: -6411927695464659888
+    second: IntroStageTile_PilarSemRisco0
+  - first:
+      213: 3129516337254182201
+    second: IntroStageTile_PilarSemRisco1
+  - first:
+      213: 4452763474336850183
+    second: IntroStageTile_PilarSemRisco2
+  - first:
+      213: 3371366548913096823
+    second: Tile_street0
+  - first:
+      213: 9057429083949700059
+    second: Tile_street1
+  - first:
+      213: 6674840097447971307
+    second: Tile_street5
+  - first:
+      213: 727174276458256893
+    second: Tile_street5
+  - first:
+      213: -9117092231754530258
+    second: Tile_street0_sub0
+  - first:
+      213: -6426912531916389897
+    second: Tile_street5_sub0
+  - first:
+      213: -656792911939246632
+    second: Tile_street5_sub0
+  - first:
+      213: -1300513410321067713
+    second: Tile_street5
+  - first:
+      213: -3586531066118077647
+    second: Tile_street5_sub0
+  - first:
+      213: -2804044703701867107
+    second: Tile_street0_sub1
+  - first:
+      213: 7754012661667639098
+    second: Tile_street0_sub2
+  - first:
+      213: -8230483847993864391
+    second: Tile_street1_sub1
+  - first:
+      213: 5054568511329869295
+    second: Tile_street1_sub2
+  - first:
+      213: 8040338744076805773
+    second: Tile_street2_sub2
+  - first:
+      213: 3550892087361386875
+    second: Tile_street2_sub1
+  - first:
+      213: 3532390371327001106
+    second: Tile_street3_sub1
+  - first:
+      213: -6837418006740223274
+    second: Tile_street3_sub2
+  - first:
+      213: -3097830190122898219
+    second: Tile_street5_sub1
+  - first:
+      213: 1098218127814980219
+    second: Tile_street5_sub2
+  - first:
+      213: 4124880913816511585
+    second: Tile_street6_sub1
+  - first:
+      213: 1294001607087988317
+    second: Tile_street6_sub2
+  - first:
+      213: 3938235153042444346
+    second: Tile_street3_sub3
+  - first:
+      213: -388756213274349026
+    second: Tile_street4_sub3
+  - first:
+      213: -5082523514108055978
+    second: Tile_street3_sub4
+  - first:
+      213: -2398148368821591837
+    second: Tile_street3_sub5
+  - first:
+      213: -6090907052002828726
+    second: Tile_street4_sub4
+  - first:
+      213: 4260160557340249627
+    second: Tile_street4_sub5
+  - first:
+      213: -1150685315023503109
+    second: Tile_brokenStreet0
+  - first:
+      213: -7350916220430679343
+    second: lampBack
+  - first:
+      213: 6502453811666536430
+    second: lampFrontBroken
+  - first:
+      213: -7851481437680302679
+    second: Tile_brokenStreet1
+  - first:
+      213: -4441463270307888704
+    second: IntroStageTile_PilarMeio2
+  - first:
+      213: 3395650210732370064
+    second: Tile_street4_sub1
+  - first:
+      213: 51397455140394588
+    second: Tile_street4_sub2
+  - first:
+      213: -7647153635523333097
+    second: Tile_street7_sub1
+  - first:
+      213: -2061571437177796881
+    second: Tile_street7_sub0
+  - first:
+      213: -6223213537661220125
+    second: Tile_street7_sub2
+  - first:
+      213: -8149813005050603374
+    second: Tile_street2
+  - first:
+      213: -5462922091333908722
+    second: Tile_street6
+  - first:
+      213: -5778187290604964931
+    second: Tile_street7
+  - first:
+      213: -2872681255451986140
+    second: Tile_street1_sub0
+  - first:
+      213: -6015593069859354997
+    second: Tile_street2_sub0
+  - first:
+      213: 8201176756411492222
+    second: Tile_street6_sub0
+  - first:
+      213: 3357211980419564551
+    second: ponte_bg
+  - first:
+      213: -2599610694653259506
+    second: ponte_bg_comp
+  - first:
+      213: 2118615356792859536
+    second: lowerRight0_sub0
+  - first:
+      213: 4849218096082229098
+    second: lowerV1BridgeLeft0_sub6
+  - first:
+      213: 8124448305037099883
+    second: lampFrontSub0
+  - first:
+      213: 5355426536385783379
+    second: lampFrontSub1
+  - first:
+      213: -8189567506192588901
+    second: Tile_brokenStreet1_sub0
+  - first:
+      213: -151674395039937966
+    second: Tile_brokenStreet0_sub1
+  - first:
+      213: 6109131673739604898
+    second: Tile_brokenStreet0_sub0
+  - first:
+      213: -1752975233373350759
+    second: Tile_brokenStreet1_sub1
+  - first:
+      213: -1207404398017235742
+    second: Tile_brokenStreet0_sub2
+  - first:
+      213: -8515097828082489030
+    second: Tile_brokenStreet1_sub2
+  - first:
+      213: -2184634746437785312
+    second: Tile_brokenStreet2
+  - first:
+      213: 3071363761065344467
+    second: Tile_brokenStreet3
+  - first:
+      213: -6677713904124708243
+    second: Tile_brokenStreet2_sub0
+  - first:
+      213: 6614270035419746411
+    second: Tile_brokenStreet3_sub0
+  - first:
+      213: 4093721924345370911
+    second: Tile_brokenStreet2_sub1
+  - first:
+      213: 7716301056633494957
+    second: Tile_brokenStreet3_sub1
+  - first:
+      213: 3365350056081450610
+    second: Tile_brokenStreet2_sub2
+  - first:
+      213: 3282270808860815417
+    second: Tile_brokenStreet3_sub2
+  - first:
+      213: -5133942818857608832
+    second: Tile_streetDestroyedLeftTopBottom
+  - first:
+      213: 2920523699858071402
+    second: Tile_streetDestroyedRightTopBottom
+  - first:
+      213: 7251821358631745056
+    second: Tile_streetDestroyedRightMiddle
+  - first:
+      213: 3989701397196146978
+    second: Tile_streetDestroyedLeftMiddle
+  - first:
+      213: 1568763713103765928
+    second: Tile_streetDestroyedMiddle
+  - first:
+      213: 7086857678928911571
+    second: Tile_streetDestroyedMiddleTop
+  - first:
+      213: -8062425608890303258
+    second: truck_0
+  - first:
+      213: 5073740681490633853
+    second: truck_1
+  - first:
+      213: 4816453054389533225
+    second: car_0
+  - first:
+      213: 9108788549024734156
+    second: car_1
+  - first:
+      213: 505143726899649803
+    second: redcar_0
+  - first:
+      213: 2104727087236539642
+    second: redcar_1
+  - first:
+      213: 4282805936194501136
+    second: redcar_2
+  - first:
+      213: -3827708686280168578
+    second: redcar_particle_0
+  - first:
+      213: 2639537449711600720
+    second: redcar_particle_4
+  - first:
+      213: 5038744920289801852
+    second: redcar_particle_3
+  - first:
+      213: -1282276275024302278
+    second: redcar_particle_2
+  - first:
+      213: -656931592303193671
+    second: redcar_particle_1
+  - first:
+      213: 323280850247469696
+    second: destroyed_redtruck0
+  - first:
+      213: -8440911091349519506
+    second: destroyed_redcar0
+  - first:
+      213: 5566198368158636204
+    second: Tile_street9_top0
+  - first:
+      213: -8262096426799605529
+    second: Tile_street10
+  - first:
+      213: 1106053879764408201
+    second: Tile_street10_top0
+  - first:
+      213: 1222207823660093005
+    second: Tile_street11
+  - first:
+      213: 342121943950040402
+    second: Tile_street8
+  - first:
+      213: -7927103150656038608
+    second: Tile_street8_top0
+  - first:
+      213: -8680668257758763700
+    second: Tile_street9
+  - first:
+      213: -7227737130416390947
+    second: Tile_street11_top0
+  - first:
+      213: -248864716580563491
+    second: Tile_street12_top0
+  - first:
+      213: -6577115744482874909
+    second: Tile_street12
+  - first:
+      213: -1525762978365738664
+    second: Tile_street13_top0
+  - first:
+      213: 3512774065121352934
+    second: Tile_street13
+  - first:
+      213: 3057136374754296898
+    second: Tile_street14_top0
+  - first:
+      213: 2861263176895424742
+    second: Tile_street14
+  - first:
+      213: 8338380503669666797
+    second: Tile_streetDestroyedMiddleTopBottom
+  - first:
+      213: 7579475653433592388
+    second: Tile_streetDestroyedMiddleBottom
+  - first:
+      213: -5838384166980458007
+    second: lowerV1BridgeMiddle5_sub3
+  - first:
+      213: 2683729319572813644
+    second: Tile_streetDestroyedRightBottom
+  - first:
+      213: 8440998790765095217
+    second: Tile_streetDestroyedLeftBottom
+  - first:
+      213: 109390490783756304
+    second: lower6
+  - first:
+      213: 2874827829369908193
+    second: lower7
+  - first:
+      213: -165649164325433906
+    second: lowerV1BridgeMiddle5_sub3
+  - first:
+      213: 8761695412452684272
+    second: lower6
+  - first:
+      213: -7307089247850865974
+    second: lower7
+  - first:
+      213: 2786471786815720343
+    second: destroyed_bluetruck0
+  - first:
+      213: -6578568632689445445
+    second: lowerV1BridgeLeft4_sub4
+  - first:
+      213: 2309176108847724231
+    second: Tile_pillarBase2
+  - first:
+      213: 6379768637595173937
+    second: Tile_pillarBase0_sub5
+  - first:
+      213: -2848999544861609849
+    second: Intro StageTile_113
+  - first:
+      213: 263516591253172627
+    second: Tile_pillarBase1_sub5
+  - first:
+      213: -5095516468579202215
+    second: Tile_pillarBase2_sub5
+  - first:
+      213: 1953683911081754110
+    second: Tile_pillarBase1_sub0
+  - first:
+      213: 386200840111976750
+    second: Tile_pillarBase5_sub5
+  - first:
+      213: 4405186150879200858
+    second: Tile_pillarDestroyed0
+  - first:
+      213: -4410188557854974014
+    second: Tile_pillarDestroyed1
+  - first:
+      213: 3095998661042508826
+    second: Tile_pillarBase0_sub1
+  - first:
+      213: -4283592830237675502
+    second: Tile_pillarBase0_sub0
+  - first:
+      213: -1917702279116231403
+    second: Tile_pillarBase2_sub0
+  - first:
+      213: -4479369285643960704
+    second: Intro StageTile_123
+  - first:
+      213: -5870910843222252921
+    second: Tile_pillarBase1_sub4
+  - first:
+      213: -4595313632222697003
+    second: Tile_pillarBase1_sub3
+  - first:
+      213: 1758523893437300360
+    second: Tile_pillarBase1_sub1
+  - first:
+      213: 3149014170840215021
+    second: Tile_pillarBase2_sub1
+  - first:
+      213: -5362418738242994861
+    second: Tile_streetFall0
+  - first:
+      213: -5793331811104773232
+    second: lowerRight1_sub1
+  - first:
+      213: 8558505388402301515
+    second: Tile_pillarBase4_sub0
+  - first:
+      213: 2484911319797930565
+    second: Tile_pillarBase5_sub0
+  - first:
+      213: -8756878520105472172
+    second: Tile_pillarBase4_sub1
+  - first:
+      213: -6074747208737913927
+    second: Tile_pillarBase5_sub1
+  - first:
+      213: 1688150848467422149
+    second: lower0_sub3
+  - first:
+      213: 7166015614854765161
+    second: lower0_sub2
+  - first:
+      213: -6613117326623938514
+    second: lower0_sub1
+  - first:
+      213: 7835875552103083007
+    second: lowerRight1_sub0
+  - first:
+      213: 8709788610927300521
+    second: Tile_pillarBase3
+  - first:
+      213: -8085838530921987376
+    second: Tile_pillarBase4
+  - first:
+      213: 4905620718187143421
+    second: Tile_pillarBase5
+  - first:
+      213: 5143254871831711951
+    second: Tile_pillarBase0
+  - first:
+      213: 4933954716089965918
+    second: Tile_pillarBase1
+  - first:
+      213: -7208657560204879825
+    second: lower1_sub0
+  - first:
+      213: -5573044139211112728
+    second: lower1_sub1
+  - first:
+      213: 2472451136517763784
+    second: lowerRight0_sub1
+  - first:
+      213: 7208314502794191368
+    second: lowerRight2_sub1
+  - first:
+      213: -4094557308579080611
+    second: lowerRight4_sub1
+  - first:
+      213: -8254107472232041589
+    second: lowerRight2_sub0
+  - first:
+      213: 5322190262040578395
+    second: lowerRight3_sub1
+  - first:
+      213: 1171287339272461133
+    second: lowerRight4_sub2
+  - first:
+      213: 241307825926511967
+    second: lowerRight5_sub2
+  - first:
+      213: -6995150538062785825
+    second: lowerV1BridgeLeft3_sub3
+  - first:
+      213: 4225307724784422659
+    second: lowerV1BridgeLeft5_sub6
+  - first:
+      213: -3928984144971465607
+    second: lowerV1BridgeLeft0_sub4
+  - first:
+      213: -6796482450004061089
+    second: lowerV1BridgeLeft1_sub4
+  - first:
+      213: 2523312047784819605
+    second: lowerV1BridgeLeft1_sub3
+  - first:
+      213: -8880967188236137745
+    second: lowerV1BridgeLeft2_sub3
+  - first:
+      213: 5336475401574409887
+    second: lowerV1BridgeLeft2_sub2
+  - first:
+      213: 8698017623069873703
+    second: lowerV1BridgeLeft2_sub4
+  - first:
+      213: 3595908565942082416
+    second: lowerV1BridgeLeft3_sub4
+  - first:
+      213: -8874670859427219649
+    second: lowerV1BridgeLeft4_sub3
+  - first:
+      213: -2503226996239581593
+    second: lowerV1BridgeLeft4_sub2
+  - first:
+      213: -3302030150158510729
+    second: lowerV1BridgeLeft5_sub2
+  - first:
+      213: -4752381429460612388
+    second: lowerV1BridgeLeft3_sub2
+  - first:
+      213: 5839751129657227947
+    second: lowerV1BridgeLeft3_sub1
+  - first:
+      213: 6783231466231141189
+    second: lowerV1BridgeLeft4_sub1
+  - first:
+      213: -526011759821520487
+    second: lowerV1BridgeLeft5_sub1
+  - first:
+      213: -5968947741329613530
+    second: lowerV1BridgeLeft4_sub0
+  - first:
+      213: 6289142515451827759
+    second: lowerV1BridgeLeft5_sub0
+  - first:
+      213: -996136326665418411
+    second: lowerV1BridgeMiddle5_sub4
+  - first:
+      213: -6867989357292618070
+    second: lowerV1BridgeMiddle4_sub3
+  - first:
+      213: -2908119807676163257
+    second: lowerV1BridgeMiddle5_sub1
+  - first:
+      213: 2132419691937107187
+    second: lowerV1BridgeMiddle5_sub0
+  - first:
+      213: -2189512026033999203
+    second: lowerV1BridgeMiddle4_sub2
+  - first:
+      213: 754640302298765971
+    second: lowerV1BridgeMiddle4_sub4
+  - first:
+      213: 383839065018588155
+    second: lowerV1BridgeMiddle3_sub4
+  - first:
+      213: 4112134214602216710
+    second: lowerV1BridgeMiddle2_sub4
+  - first:
+      213: 2833375399772394165
+    second: lowerV1BridgeMiddle4_sub0
+  - first:
+      213: 2893051648723959551
+    second: lowerV1BridgeMiddle3_sub0
+  - first:
+      213: 310931161948825661
+    second: lowerV1BridgeMiddle2_sub0
+  - first:
+      213: -5203439542101453369
+    second: lowerV1BridgeMiddle4_sub1
+  - first:
+      213: -3601201327882572123
+    second: lowerV1BridgeMiddle1_sub0
+  - first:
+      213: 5863282586761119844
+    second: lowerV1BridgeMiddle0_sub0
+  - first:
+      213: 5326916910012543455
+    second: lowerV1BridgeMiddle3_sub1
+  - first:
+      213: -1589440835865349056
+    second: lowerV1BridgeMiddle3_sub2
+  - first:
+      213: 6112324180913937465
+    second: lowerV1BridgeMiddle3_sub3
+  - first:
+      213: 8101727751188910625
+    second: lowerV1BridgeMiddle2_sub3
+  - first:
+      213: -6634399447524632877
+    second: lowerV1BridgeMiddle2_sub2
+  - first:
+      213: 8451046484319202505
+    second: lowerV1BridgeMiddle2_sub1
+  - first:
+      213: 7256451021389044777
+    second: lowerV1BridgeMiddle1_sub1
+  - first:
+      213: 1654980423978860719
+    second: lowerV1BridgeMiddle1_sub2
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Intro Stage_bg
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 717
+        width: 512
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2ac2ac765c0c750800000000000000
+      internalID: 6323270926392402664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroStageTile_PilarFim0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 974
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82169ef1dcd46d730800000000000000
+      internalID: 4023488860501139752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroStageTile_PilarFim1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 974
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1e33b73d34f5390800000000000000
+      internalID: -7827463051762474512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroStageTile_PilarFim2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 974
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6f6d9e5dd747c90800000000000000
+      internalID: -7172969948789672205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroStageTile_PilarInicio2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1214
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61787bce376b3ed0800000000000000
+      internalID: -2433237654264319636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street0
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1094
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7788993930089ce20800000000000000
+      internalID: 3371366548913096823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street1
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1094
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd31d1773c372bd70800000000000000
+      internalID: 9057429083949700059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street3
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1094
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be98bec24bbc1ac50800000000000000
+      internalID: 6674840097447971307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street4
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1094
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df99816d621771a00800000000000000
+      internalID: 727174276458256893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street0_sub0
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1078
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e224ccd6be4997180800000000000000
+      internalID: -9117092231754530258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street3_sub0
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1078
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f10e9c7a150fc6a0800000000000000
+      internalID: -6426912531916389897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street4_sub0
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1078
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5edd0935a92e6f0800000000000000
+      internalID: -656792911939246632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street5
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1094
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f315e2891f5a3fde0800000000000000
+      internalID: -1300513410321067713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street5_sub0
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1078
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13301246ff41a3ec0800000000000000
+      internalID: -3586531066118077647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street0_sub1
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1062
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95e88dc2380619d0800000000000000
+      internalID: -2804044703701867107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street0_sub2
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1046
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fa49aee69cb9b60800000000000000
+      internalID: 7754012661667639098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street1_sub1
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1062
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f4cb61c8277cd80800000000000000
+      internalID: -8230483847993864391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street1_sub2
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1046
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed11b2e74f652640800000000000000
+      internalID: 5054568511329869295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street2_sub2
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1046
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86228afc75059f60800000000000000
+      internalID: 8040338744076805773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street2_sub1
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1062
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79bbee3a8d474130800000000000000
+      internalID: 3550892087361386875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street3_sub1
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1062
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212c4fac352950130800000000000000
+      internalID: 3532390371327001106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street3_sub2
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1046
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dab36f8c8c9c11a0800000000000000
+      internalID: -6837418006740223274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street5_sub1
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1062
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc6e37eadb4205d0800000000000000
+      internalID: -3097830190122898219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street5_sub2
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1046
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b727e429197ad3f00800000000000000
+      internalID: 1098218127814980219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street6_sub1
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1062
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16462d826558e3930800000000000000
+      internalID: 4124880913816511585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street6_sub2
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1046
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e93411b9735f110800000000000000
+      internalID: 1294001607087988317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street3_sub3
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1030
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a301d0b810c67a630800000000000000
+      internalID: 3938235153042444346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street4_sub3
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1030
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e127e83a84cda9af0800000000000000
+      internalID: -388756213274349026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street3_sub4
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1014
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ee403dacf3779b0800000000000000
+      internalID: -5082523514108055978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street3_sub5
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 998
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0e4b5b3c018bed0800000000000000
+      internalID: -2398148368821591837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street4_sub4
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1014
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e1375ae40c87ba0800000000000000
+      internalID: -6090907052002828726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street4_sub5
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 998
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e4562a4712f1b30800000000000000
+      internalID: 4260160557340249627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lampBack
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1110
+        width: 16
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d28293f4ac4cf990800000000000000
+      internalID: -7350916220430679343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lampFrontBroken
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1130
+        width: 16
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7c4cc4a4b5d3a50800000000000000
+      internalID: 6502453811666536430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IntroStageTile_PilarMeio2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1150
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c18a5200b0cc52c0800000000000000
+      internalID: -4441463270307888704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street4_sub1
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1062
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098ee2030e5cf1f20800000000000000
+      internalID: 3395650210732370064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street4_sub2
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1046
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56900096b996b000800000000000000
+      internalID: 51397455140394588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street7_sub1
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1062
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7147bcbe84adfd590800000000000000
+      internalID: -7647153635523333097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street7_sub0
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1078
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe60de753b3d363e0800000000000000
+      internalID: -2061571437177796881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street7_sub2
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1046
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea0d4e6244b2a9a0800000000000000
+      internalID: -6223213537661220125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street2
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1094
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2989910604c06ee80800000000000000
+      internalID: -8149813005050603374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street6
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1094
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07886e3d4dcf24b0800000000000000
+      internalID: -5462922091333908722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street7
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1094
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db370d9f541cfcfa0800000000000000
+      internalID: -5778187290604964931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street1_sub0
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1078
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4277cd74e9f2228d0800000000000000
+      internalID: -2872681255451986140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street2_sub0
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1078
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b864bb599f1548ca0800000000000000
+      internalID: -6015593069859354997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street6_sub0
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1078
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77e81aeece60d170800000000000000
+      internalID: 8201176756411492222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_bg
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1110
+        width: 400
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70408984286379e20800000000000000
+      internalID: 3357211980419564551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponte_bg_comp
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1030
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01d2e6b8d35cebd0800000000000000
+      internalID: -2599610694653259506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lampFrontSub0
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 1098
+        width: 16
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63c2c130b6dfb070800000000000000
+      internalID: 8124448305037099883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lampFrontSub1
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1214
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356a9f18f0c425a40800000000000000
+      internalID: 5355426536385783379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_brokenStreet0
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1094
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf004c57dc1f700f0800000000000000
+      internalID: -1150685315023503109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_brokenStreet1
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 1094
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a50e7a3b3fe90390800000000000000
+      internalID: -7851481437680302679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_brokenStreet1_sub0
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 1078
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f1f494ebfc85e80800000000000000
+      internalID: -8189567506192588901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_brokenStreet0_sub1
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1062
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a4f1af0f425edf0800000000000000
+      internalID: -151674395039937966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_brokenStreet0_sub0
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1078
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a33653c3eef7c450800000000000000
+      internalID: 6109131673739604898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_brokenStreet1_sub1
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 1062
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99459ba105e2ca7e0800000000000000
+      internalID: -1752975233373350759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_brokenStreet0_sub2
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1046
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e430fbd8107e3fe0800000000000000
+      internalID: -1207404398017235742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_brokenStreet1_sub2
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 1046
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a396179e3ab44d980800000000000000
+      internalID: -8515097828082489030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_brokenStreet2
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 1110
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029a996d54e9ea1e0800000000000000
+      internalID: -2184634746437785312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_brokenStreet3
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1110
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ddbe42611daf9a20800000000000000
+      internalID: 3071363761065344467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_brokenStreet2_sub0
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 1094
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ab5f0959ef353a0800000000000000
+      internalID: -6677713904124708243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_brokenStreet3_sub0
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1094
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6054b5ad8b9acb50800000000000000
+      internalID: 6614270035419746411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_brokenStreet2_sub1
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 1078
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1995d59662dfc830800000000000000
+      internalID: 4093721924345370911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_brokenStreet3_sub1
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1078
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad5c94adeec51b60800000000000000
+      internalID: 7716301056633494957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_brokenStreet2_sub2
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 1062
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276639dab0024be20800000000000000
+      internalID: 3365350056081450610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_brokenStreet3_sub2
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1062
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93078c219e7fc8d20800000000000000
+      internalID: 3282270808860815417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: truck_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1236
+        width: 101
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ecb41210a28c1090800000000000000
+      internalID: -8062425608890303258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: truck_1
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1236
+        width: 101
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7492ba944c896640800000000000000
+      internalID: 5073740681490633853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car_0
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1236
+        width: 78
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92abb38c88a77d240800000000000000
+      internalID: 4816453054389533225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car_1
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1236
+        width: 78
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccbd3c6cceae86e70800000000000000
+      internalID: 9108788549024734156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redcar_0
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1236
+        width: 80
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0dde521b81a20700800000000000000
+      internalID: 505143726899649803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redcar_1
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1236
+        width: 80
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af460ef622e753d10800000000000000
+      internalID: 2104727087236539642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redcar_2
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1236
+        width: 80
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01abec4ce459f6b30800000000000000
+      internalID: 4282805936194501136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redcar_particle_0
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1285
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7be79ada3f31eac0800000000000000
+      internalID: -3827708686280168578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redcar_particle_4
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 1285
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054866d535581a420800000000000000
+      internalID: 2639537449711600720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redcar_particle_3
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1285
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c767daffec73de540800000000000000
+      internalID: 5038744920289801852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redcar_particle_2
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1285
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fe34b8580743ee0800000000000000
+      internalID: -1282276275024302278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redcar_particle_1
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1285
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b15907823c12e6f0800000000000000
+      internalID: -656931592303193671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: destroyed_redtruck0
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1134
+        width: 96
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08acfa178368c7400800000000000000
+      internalID: 323280850247469696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: destroyed_redcar0
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1134
+        width: 80
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e630573951cdbda80800000000000000
+      internalID: -8440911091349519506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street9_top0
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1142
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca85473cceb1f3d40800000000000000
+      internalID: 5566198368158636204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street10
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 1126
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8d5940313275d80800000000000000
+      internalID: -8262096426799605529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street10_top0
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 1142
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987dccdb42e795f00800000000000000
+      internalID: 1106053879764408201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street11
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 1126
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e86f24a8726f010800000000000000
+      internalID: 1222207823660093005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street8
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 1126
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d120b68167fb400800000000000000
+      internalID: 342121943950040402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street8_top0
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 1142
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039544f1fa54df190800000000000000
+      internalID: -7927103150656038608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street9
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1126
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45a7433632188780800000000000000
+      internalID: -8680668257758763700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street11_top0
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 1142
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc31a3cf5be1bb90800000000000000
+      internalID: -7227737130416390947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street12_top0
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1142
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5561bdbdadb8cf0800000000000000
+      internalID: -248864716580563491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street12
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1126
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e92873d31469b4a0800000000000000
+      internalID: -6577115744482874909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street13_top0
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 1142
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851711fa7a663dae0800000000000000
+      internalID: -1525762978365738664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street13
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 1126
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec53c79661efb030800000000000000
+      internalID: 3512774065121352934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street14_top0
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1142
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244c72fd5512d6a20800000000000000
+      internalID: 3057136374754296898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_street14
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1126
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8e1c323bf35b720800000000000000
+      internalID: 2861263176895424742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_streetDestroyedRightBottom
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 1248
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47307ed8958e3520800000000000000
+      internalID: 2683729319572813644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_streetDestroyedLeftBottom
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 1248
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1392e098da3742570800000000000000
+      internalID: 8440998790765095217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_streetDestroyedLeftTopBottom
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 1264
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08913d0053290c8b0800000000000000
+      internalID: -5133942818857608832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_streetDestroyedRightTopBottom
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 1264
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f5628d4d8c78820800000000000000
+      internalID: 2920523699858071402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_streetDestroyedRightMiddle
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1248
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026f5d79a15a3a460800000000000000
+      internalID: 7251821358631745056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_streetDestroyedLeftMiddle
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 1248
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22981cb48444e5730800000000000000
+      internalID: 3989701397196146978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_streetDestroyedMiddleTop
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 1264
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc9e4ed283995260800000000000000
+      internalID: 7086857678928911571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_streetDestroyedRightTop
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 1264
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925c27a6683b87820800000000000000
+      internalID: 2916278148615292201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_streetDestroyedLeftTop
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 1264
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a808fc17c5f87dea0800000000000000
+      internalID: -5848047963908112246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_streetDestroyedMiddle
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1260
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1a210194e55c510800000000000000
+      internalID: 1568763713103765928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_streetDestroyedMiddleTopBottom
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 1264
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3f543b3e0e7b370800000000000000
+      internalID: 8338380503669666797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_streetDestroyedMiddleBottom
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1248
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a81a2f2f4bf2960800000000000000
+      internalID: 7579475653433592388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lower5
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 972
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e96dd08884e9fea0800000000000000
+      internalID: -5838384166980458007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lower6
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 974
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010b8f06212a48100800000000000000
+      internalID: 109390490783756304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lower7
+      rect:
+        serializedVersion: 2
+        x: 2054
+        y: 974
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb2008eda075e720800000000000000
+      internalID: 2874827829369908193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lower4
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 974
+        width: 96
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acad5cf2b01089a90800000000000000
+      internalID: -7307089247850865974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: destroyed_bluetruck0
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 1118
+        width: 96
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b8cc5a3598ba620800000000000000
+      internalID: 2786471786815720343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_pillarBase2
+      rect:
+        serializedVersion: 2
+        x: 2534
+        y: 846
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6ffabbf67db0020800000000000000
+      internalID: 2309176108847724231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_pillarBase0_sub5
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 750
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134c90146cd798850800000000000000
+      internalID: 6379768637595173937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_pillarBase1_sub5
+      rect:
+        serializedVersion: 2
+        x: 2518
+        y: 750
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391311e81f238a300800000000000000
+      internalID: 263516591253172627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_pillarBase2_sub5
+      rect:
+        serializedVersion: 2
+        x: 2534
+        y: 750
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b0f2fd4c61949b0800000000000000
+      internalID: -5095516468579202215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_pillarBase1_sub0
+      rect:
+        serializedVersion: 2
+        x: 2518
+        y: 830
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd7c638a21ec1b10800000000000000
+      internalID: 1953683911081754110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_pillarBase5_sub5
+      rect:
+        serializedVersion: 2
+        x: 2582
+        y: 750
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21f4de2e9f0c5500800000000000000
+      internalID: 386200840111976750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_pillarBase0_sub1
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 814
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a141680016237fa20800000000000000
+      internalID: 3095998661042508826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_pillarBase0_sub0
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 830
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210f54f240f9d84c0800000000000000
+      internalID: -4283592830237675502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_pillarBase2_sub0
+      rect:
+        serializedVersion: 2
+        x: 2534
+        y: 830
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51de15400f3f265e0800000000000000
+      internalID: -1917702279116231403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_pillarBase1_sub4
+      rect:
+        serializedVersion: 2
+        x: 2518
+        y: 766
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782afb981b5568ea0800000000000000
+      internalID: -5870910843222252921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_pillarBase1_sub3
+      rect:
+        serializedVersion: 2
+        x: 2518
+        y: 782
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d92bd7399a2a30c0800000000000000
+      internalID: -4595313632222697003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_pillarBase1_sub1
+      rect:
+        serializedVersion: 2
+        x: 2518
+        y: 814
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88efd5df928876810800000000000000
+      internalID: 1758523893437300360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_pillarBase2_sub1
+      rect:
+        serializedVersion: 2
+        x: 2534
+        y: 814
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded2a9544bb83bb20800000000000000
+      internalID: 3149014170840215021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_pillarBase4_sub0
+      rect:
+        serializedVersion: 2
+        x: 2566
+        y: 830
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a5cfb4e4be5c670800000000000000
+      internalID: 8558505388402301515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_pillarBase5_sub0
+      rect:
+        serializedVersion: 2
+        x: 2582
+        y: 830
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a17e20ead2c7220800000000000000
+      internalID: 2484911319797930565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_pillarBase4_sub1
+      rect:
+        serializedVersion: 2
+        x: 2566
+        y: 814
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f6dd3c161597680800000000000000
+      internalID: -8756878520105472172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_pillarBase5_sub1
+      rect:
+        serializedVersion: 2
+        x: 2582
+        y: 814
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b381ea599922bba0800000000000000
+      internalID: -6074747208737913927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_pillarBase3
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 846
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af801f58926fd870800000000000000
+      internalID: 8709788610927300521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_pillarBase4
+      rect:
+        serializedVersion: 2
+        x: 2566
+        y: 846
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d28a3d52b459cf80800000000000000
+      internalID: -8085838530921987376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_pillarBase5
+      rect:
+        serializedVersion: 2
+        x: 2582
+        y: 846
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df067565d04441440800000000000000
+      internalID: 4905620718187143421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_pillarBase0
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 846
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc093d84e03806740800000000000000
+      internalID: 5143254871831711951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_pillarBase1
+      rect:
+        serializedVersion: 2
+        x: 2518
+        y: 846
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5dd76e4cade87440800000000000000
+      internalID: 4933954716089965918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_streetFall0
+      rect:
+        serializedVersion: 2
+        x: 2566
+        y: 1070
+        width: 224
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35db022a19cd495b0800000000000000
+      internalID: -5362418738242994861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Intro StageTile_113
+      rect:
+        serializedVersion: 2
+        x: 2918
+        y: 1014
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780364332025678d0800000000000000
+      internalID: -2848999544861609849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_pillarDestroyed0
+      rect:
+        serializedVersion: 2
+        x: 2918
+        y: 1030
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5600ace67d522d30800000000000000
+      internalID: 4405186150879200858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile_pillarDestroyed1
+      rect:
+        serializedVersion: 2
+        x: 2934
+        y: 1030
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cfdf807fdcdbc2c0800000000000000
+      internalID: -4410188557854974014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Intro StageTile_123
+      rect:
+        serializedVersion: 2
+        x: 2934
+        y: 1014
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e756f0e5516d1c0800000000000000
+      internalID: -4479369285643960704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lower0_sub3
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 990
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cbcc22a0448d6710800000000000000
+      internalID: 1688150848467422149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lower0_sub2
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 1006
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a125a0c3dc27360800000000000000
+      internalID: 7166015614854765161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lower0_sub1
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 1022
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28699844dc7934a0800000000000000
+      internalID: -6613117326623938514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lower1_sub0
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 1038
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28dd806424b5fb90800000000000000
+      internalID: -7208657560204879825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lower1_sub1
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 1022
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eebfb4f1e198a2b0800000000000000
+      internalID: -5573044139211112728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerRight0_sub0
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 1022
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b635d2175d66d10800000000000000
+      internalID: 2118615356792859536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerRight0_sub1
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 1006
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2f6a48539ef4220800000000000000
+      internalID: 2472451136517763784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerRight1_sub1
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 1006
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b21258963f99fa0800000000000000
+      internalID: -5793331811104773232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerRight1_sub0
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 1022
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffba5436c4f9ebc60800000000000000
+      internalID: 7835875552103083007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerRight2_sub1
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 1006
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802285859d3190460800000000000000
+      internalID: 7208314502794191368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerRight2_sub0
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 1022
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8336b37cf4837d80800000000000000
+      internalID: -8254107472232041589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerRight3_sub1
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 1006
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59c8fb58d73cd940800000000000000
+      internalID: 5322190262040578395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerRight4_sub1
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 1006
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d561aad52d53d27c0800000000000000
+      internalID: -4094557308579080611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerRight4_sub2
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 990
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b5f3b11af314010800000000000000
+      internalID: 1171287339272461133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerRight5_sub2
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 990
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d1fdd603c495300800000000000000
+      internalID: 241307825926511967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeLeft0_sub6
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 974
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6790678a22eb4340800000000000000
+      internalID: 4849218096082229098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeLeft3_sub3
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 1022
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd29264c5ab3cee90800000000000000
+      internalID: -6995150538062785825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeLeft5_sub6
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 974
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f4d723dfe43aa30800000000000000
+      internalID: 4225307724784422659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeLeft0_sub4
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 1006
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c75de9cb17979c0800000000000000
+      internalID: -3928984144971465607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeLeft1_sub4
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1006
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54d455983b0ea1a0800000000000000
+      internalID: -6796482450004061089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeLeft1_sub3
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1022
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b7da930fa940320800000000000000
+      internalID: 2523312047784819605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeLeft2_sub3
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 1022
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea094b456770c480800000000000000
+      internalID: -8880967188236137745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeLeft2_sub2
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 1038
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96e3779a18fe0a40800000000000000
+      internalID: 5336475401574409887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeLeft2_sub4
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 1006
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726da21b1f095b870800000000000000
+      internalID: 8698017623069873703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeLeft3_sub4
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 1006
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b13cde9cb37e130800000000000000
+      internalID: 3595908565942082416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeLeft4_sub4
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1006
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5b40eeeaa34b4a0800000000000000
+      internalID: -6578568632689445445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeLeft4_sub3
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1022
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3774559fd5d6d480800000000000000
+      internalID: -8874670859427219649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeLeft4_sub2
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1038
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76eb8f04f40c24dd0800000000000000
+      internalID: -2503226996239581593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeLeft5_sub2
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 1038
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7751c26c215dc22d0800000000000000
+      internalID: -3302030150158510729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeLeft3_sub2
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 1038
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda46d3e4462c0eb0800000000000000
+      internalID: -4752381429460612388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeLeft3_sub1
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 1054
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baab7eb46b6fa0150800000000000000
+      internalID: 5839751129657227947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeLeft4_sub1
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1054
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54395f55411e22e50800000000000000
+      internalID: 6783231466231141189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeLeft5_sub1
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 1054
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9910924671b33b8f0800000000000000
+      internalID: -526011759821520487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeLeft4_sub0
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1070
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d9d2377a90a2da0800000000000000
+      internalID: -5968947741329613530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeLeft5_sub0
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 1070
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f261057ebc5874750800000000000000
+      internalID: 6289142515451827759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeMiddle5_sub4
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1006
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559ce35e9430d22f0800000000000000
+      internalID: -996136326665418411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeMiddle5_sub3
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1022
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecdca0376fe73bdf0800000000000000
+      internalID: -165649164325433906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeMiddle4_sub3
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 1022
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaef865511000b0a0800000000000000
+      internalID: -6867989357292618070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeMiddle5_sub1
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1054
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b5f2b517844a7d0800000000000000
+      internalID: -2908119807676163257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeMiddle5_sub0
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 1070
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc85f96960e79d10800000000000000
+      internalID: 2132419691937107187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeMiddle4_sub2
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 1038
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d923cc0b96a4d91e0800000000000000
+      internalID: -2189512026033999203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeMiddle4_sub4
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 1006
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a16bf4b55097a00800000000000000
+      internalID: 754640302298765971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeMiddle3_sub4
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 1006
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfbd951989ba35500800000000000000
+      internalID: 383839065018588155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeMiddle2_sub4
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 1006
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605581af74c311930800000000000000
+      internalID: 4112134214602216710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeMiddle4_sub0
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 1070
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b293ca0aeb225720800000000000000
+      internalID: 2833375399772394165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeMiddle3_sub0
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 1070
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffebc0f752f262820800000000000000
+      internalID: 2893051648723959551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeMiddle2_sub0
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 1070
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d382f819e36a05400800000000000000
+      internalID: 310931161948825661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeMiddle4_sub1
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 1054
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c552d23e4ba9c7b0800000000000000
+      internalID: -5203439542101453369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeMiddle1_sub0
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 1070
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aee4e6e876f50ec0800000000000000
+      internalID: -3601201327882572123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeMiddle0_sub0
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 1070
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46841a992709e5150800000000000000
+      internalID: 5863282586761119844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeMiddle3_sub1
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 1054
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1b159d4b20de940800000000000000
+      internalID: 5326916910012543455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeMiddle3_sub2
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 1038
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044feb22bfb21f9e0800000000000000
+      internalID: -1589440835865349056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeMiddle3_sub3
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 1022
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93cd763457653d450800000000000000
+      internalID: 6112324180913937465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeMiddle2_sub3
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 1022
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1221a84077e1f6070800000000000000
+      internalID: 8101727751188910625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeMiddle2_sub2
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 1038
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d61f306ad0ede3a0800000000000000
+      internalID: -6634399447524632877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeMiddle2_sub1
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 1054
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cce82e7006284570800000000000000
+      internalID: 8451046484319202505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeMiddle1_sub1
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 1054
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c1ae3f1c714b460800000000000000
+      internalID: 7256451021389044777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lowerV1BridgeMiddle1_sub2
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 1038
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa04c795deba7f610800000000000000
+      internalID: 1654980423978860719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
